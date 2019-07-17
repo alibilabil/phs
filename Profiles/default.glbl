@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>endpoint sit</description>
+      <initValue>'http://10.171.86.22'</initValue>
+      <name>endpoint_sit</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
