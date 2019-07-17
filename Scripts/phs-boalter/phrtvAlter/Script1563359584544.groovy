@@ -13,6 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-def response = WS.sendRequest(findTestObject('phs-masterdb/GetBydoctype', [('endpoint') : GlobalVariable.endpoint]))
+def response = WS.sendRequest(findTestObject('phs-boalter/phrtvAlter', [('endpoint') : GlobalVariable.endpoint]))
 
 WS.verifyResponseStatusCode(response, 200)

@@ -7,6 +7,6 @@
    <GlobalVariableEntity>
       <description>endpoint sit</description>
       <initValue>'http://10.171.86.22'</initValue>
-      <name>endpoint_sit</name>
+      <name>endpoint</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

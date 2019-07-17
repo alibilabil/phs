@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To retrieve billing status</description>
+   <name>phrtvbilst</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7620c6b-5ec1-4be5-b8f2-1b2b2a0a2c2e</testCaseGuid>
+</TestCaseEntity>

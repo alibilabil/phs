@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>/phs-retrieve/rest/api/BORetriveClient</description>
+   <name>BORetriveClient</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6072add-c651-4400-98d6-ccaaf145e9e9</testCaseGuid>
+</TestCaseEntity>

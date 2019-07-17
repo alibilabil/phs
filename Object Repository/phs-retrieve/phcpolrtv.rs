@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetBydoctype</name>
+   <name>phcpolrtv</name>
    <tag></tag>
-   <elementGuidId>78d6b8df-d632-44c5-98c3-b3307ca4a7be</elementGuidId>
+   <elementGuidId>dc55862f-64ed-426b-b693-19017bff42d2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;MainDoc\&quot;,\n  \&quot;param\&quot;: null\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHCPOLRTV\&quot;,\n  \&quot;clntnum\&quot;: \&quot;61226945\&quot;,\n  \&quot;clrrrole\&quot;: \&quot;PY\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-masterdb/rest/api/docType/getBydoctype</restUrl>
+   <restUrl>${endpoint}/phs-retrieve/rest/api/phcpolrtv</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -31,7 +31,7 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>6e2e3752-d234-4fe0-90c3-54c70b92674f</id>
+      <id>9ad38b12-4202-4cd8-b5e9-fad0ddb69f98</id>
       <masked>false</masked>
       <name>endpoint</name>
    </variables>

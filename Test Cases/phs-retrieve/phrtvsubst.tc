@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To retrieve substandard flag</description>
+   <name>phrtvsubst</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e139ab5d-8776-4deb-9087-09f39b8e0bf0</testCaseGuid>
+</TestCaseEntity>

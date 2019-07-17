@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To add exclusion clause</description>
+   <name>BORetriveAddExclusion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d046bc3-a577-47c8-bce0-5a0b61017973</testCaseGuid>
+</TestCaseEntity>

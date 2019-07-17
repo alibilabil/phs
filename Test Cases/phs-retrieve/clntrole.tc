@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To retrieve policy and client role based on client number</description>
+   <name>clntrole</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b58077ab-b7be-44cc-8dc5-c432c13dc62a</testCaseGuid>
+</TestCaseEntity>

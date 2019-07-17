@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To retrieve vip &amp; blacklist flag untuk client dan agent under police tertentu</description>
+   <name>BORetriveFlag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e39a72b9-2b9d-4c88-bb78-dc33fccf79ab</testCaseGuid>
+</TestCaseEntity>

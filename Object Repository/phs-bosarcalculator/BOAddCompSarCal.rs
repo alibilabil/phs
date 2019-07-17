@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetBydoctype</name>
+   <name>BOAddCompSarCal</name>
    <tag></tag>
-   <elementGuidId>78d6b8df-d632-44c5-98c3-b3307ca4a7be</elementGuidId>
+   <elementGuidId>c188f084-43b9-40cb-a5e3-ba0a7fd0fa9d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;MainDoc\&quot;,\n  \&quot;param\&quot;: null\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHADDSARCO\&quot;,\n  \&quot;clntnum\&quot;: \&quot;60072770\&quot;,\n  \&quot;currcy\&quot;: \&quot;IDR\&quot;,\n  \&quot;crtable01\&quot;: \&quot;S1GR\&quot;,\n  \&quot;rcesagenew\&quot;: \&quot;0\&quot;,\n  \&quot;rcestrmnew\&quot;: \&quot;25\&quot;,\n  \&quot;suminsnew\&quot;: \&quot;00000000020000000\&quot;,\n  \&quot;zsprm\&quot;: \&quot;00000000200000000\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;90002667\&quot;,\n  \&quot;rider\&quot;: \&quot;\&quot;,\n  \&quot;crtable02\&quot;: \&quot;S1GR\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-masterdb/rest/api/docType/getBydoctype</restUrl>
+   <restUrl>${endpoint}/phs-sarcalculator/rest/api/BOAddCompSarCal</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -31,7 +31,7 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>6e2e3752-d234-4fe0-90c3-54c70b92674f</id>
+      <id>de3fa071-bb03-47a1-92c4-6cd2569f17e8</id>
       <masked>false</masked>
       <name>endpoint</name>
    </variables>

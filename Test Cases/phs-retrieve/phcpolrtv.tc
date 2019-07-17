@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To retrieve no policy based on client number &amp; role</description>
+   <name>phcpolrtv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36442599-4af8-4e45-8f11-1476c89207d5</testCaseGuid>
+</TestCaseEntity>

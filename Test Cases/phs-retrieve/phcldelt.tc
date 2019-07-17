@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To retrieve claim history</description>
+   <name>phcldelt</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1951832-43ff-46ed-98e1-47aba1fc9b1d</testCaseGuid>
+</TestCaseEntity>
