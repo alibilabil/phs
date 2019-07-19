@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHRTVSUBST\&quot;,\n  \&quot;chdrno\&quot;: \&quot;90002667\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrno\&quot;: \&quot;${chdrno}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,20 @@
       <id>d4b418c1-4f72-4cd9-b05c-334d74f8fb0b</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phrtvsubst').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ab8fc669-5295-42bf-a875-879129b81c48</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phrtvsubst').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>2298fe56-a9d2-462e-92b7-4b66b71db856</id>
+      <masked>false</masked>
+      <name>chdrno</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

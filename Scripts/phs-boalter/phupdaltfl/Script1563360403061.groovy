@@ -16,4 +16,3 @@ import internal.GlobalVariable as GlobalVariable
 def response = WS.sendRequest(findTestObject('phs-boalter/phupdaltfl', [('endpoint') : GlobalVariable.endpoints]))
 
 WS.verifyResponseStatusCode(response, 200)
-

@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-def response = WS.sendRequest(findTestObject('phs-retrieve/phrtvsubst', [('endpoint') : GlobalVariable.endpoints]))
+ResponseObject response = WS.sendRequest(findTestObject('phs-retrieve/phrtvsubst', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
+                'phrtvsubst').getValue(1, 1), ('chdrno') : findTestData('phrtvsubst').getValue(2, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)
-

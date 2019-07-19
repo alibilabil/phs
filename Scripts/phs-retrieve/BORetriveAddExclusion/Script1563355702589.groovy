@@ -13,6 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-def response = WS.sendRequest(findTestObject(""))
+
+def response = WS.sendRequest(findTestObject('phs-retrieve/BORetriveAddExclusion', [('endpoint') : GlobalVariable.endpoint, ('chdrnum') : findTestData(
+                'BORetriveAddExclusion').getValue(1, 1), ('zaltnum') : findTestData('BORetriveAddExclusion').getValue(2, 
+                1), ('fupno') : findTestData('BORetriveAddExclusion').getValue(3, 1), ('fupcde') : findTestData('BORetriveAddExclusion').getValue(
+                4, 1), ('objid') : findTestData('BORetriveAddExclusion').getValue(5, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)

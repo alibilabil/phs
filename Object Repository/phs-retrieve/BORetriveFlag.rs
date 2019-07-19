@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHRTVFLAG\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;90002667\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,20 @@
       <id>fa92ae35-b5dd-44e2-b1cb-3904799e3132</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('BORetrieveFlag').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>89d09ce3-79d9-44f7-969b-58b894bafeaf</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('BORetrieveFlag').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>299669c8-db2d-47ef-be2d-5f1d2250bb7f</id>
+      <masked>false</masked>
+      <name>chdrnum</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

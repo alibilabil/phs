@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHRTVALTFU\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;90002667\&quot;,\n  \&quot;zaltnum\&quot;: \&quot;A0000064\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;,\n  \&quot;zaltnum\&quot;: \&quot;${zaltnum}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,27 @@
       <id>5797cc15-4cd6-41fb-b122-03afb562d0d5</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phrtvaltfu').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7952bcf6-434f-480b-8929-971eb6d803cc</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phrtvaltfu').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>e0e741c1-965c-48b7-a4e4-478d062dea53</id>
+      <masked>false</masked>
+      <name>chdrnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phrtvaltfu').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>93400d09-e294-4e14-908c-8a327ad69940</id>
+      <masked>false</masked>
+      <name>zaltnum</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

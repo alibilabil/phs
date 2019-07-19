@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHUPDALTFL\&quot;,\n  \&quot;chdrsel\&quot;: \&quot;90002667\&quot;,\n  \&quot;zaltnumsel\&quot;: \&quot;\&quot;,\n  \&quot;zaltstasel\&quot;: \&quot;O\&quot;,\n  \&quot;zalttypsel\&quot;: \&quot;COM\&quot;,\n  \&quot;zaltdesc\&quot;: \&quot;\&quot;,\n  \&quot;zlastrcvdt\&quot;: \&quot;99999999\&quot;,\n  \&quot;zcompldt\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupcde1\&quot;: \&quot;E28\&quot;,\n  \&quot;clntnum1\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt1\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno1\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk1\&quot;: \&quot;Terima Pengajuan Major Alt\&quot;,\n  \&quot;fupsts1\&quot;: \&quot;I\&quot;,\n  \&quot;delflag1\&quot;: \&quot;\&quot;,\n  \&quot;addopt1\&quot;: \&quot;Y\&quot;,\n  \&quot;fupcde2\&quot;: \&quot;D91\&quot;,\n  \&quot;clntnum2\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt2\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno2\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk2\&quot;: \&quot;Proses Auto Incoming\&quot;,\n  \&quot;fupsts2\&quot;: \&quot;N\&quot;,\n  \&quot;delflag2\&quot;: \&quot;\&quot;,\n  \&quot;addopt2\&quot;: \&quot;Y\&quot;,\n  \&quot;fupcde3\&quot;: \&quot;\&quot;,\n  \&quot;clntnum3\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt3\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno3\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk3\&quot;: \&quot;\&quot;,\n  \&quot;fupsts3\&quot;: \&quot;\&quot;,\n  \&quot;delflag3\&quot;: \&quot;\&quot;,\n  \&quot;addopt3\&quot;: \&quot;\&quot;,\n  \&quot;fupcde4\&quot;: \&quot;\&quot;,\n  \&quot;clntnum4\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt4\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno4\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk4\&quot;: \&quot;\&quot;,\n  \&quot;fupsts4\&quot;: \&quot;\&quot;,\n  \&quot;delflag4\&quot;: \&quot;\&quot;,\n  \&quot;addopt4\&quot;: \&quot;\&quot;,\n  \&quot;fupcde5\&quot;: \&quot;\&quot;,\n  \&quot;clntnum5\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt5\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno5\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk5\&quot;: \&quot;\&quot;,\n  \&quot;fupsts5\&quot;: \&quot;\&quot;,\n  \&quot;delflag5\&quot;: \&quot;\&quot;,\n  \&quot;addopt5\&quot;: \&quot;\&quot;,\n  \&quot;fupcde6\&quot;: \&quot;\&quot;,\n  \&quot;clntnum6\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt6\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno6\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk6\&quot;: \&quot;\&quot;,\n  \&quot;fupsts6\&quot;: \&quot;\&quot;,\n  \&quot;delflag6\&quot;: \&quot;\&quot;,\n  \&quot;addopt6\&quot;: \&quot;\&quot;,\n  \&quot;fupcde7\&quot;: \&quot;\&quot;,\n  \&quot;clntnum7\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt7\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno7\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk7\&quot;: \&quot;\&quot;,\n  \&quot;fupsts7\&quot;: \&quot;\&quot;,\n  \&quot;delflag7\&quot;: \&quot;\&quot;,\n  \&quot;addopt7\&quot;: \&quot;\&quot;,\n  \&quot;fupcde8\&quot;: \&quot;\&quot;,\n  \&quot;clntnum8\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt8\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno8\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk8\&quot;: \&quot;\&quot;,\n  \&quot;fupsts8\&quot;: \&quot;\&quot;,\n  \&quot;delflag8\&quot;: \&quot;\&quot;,\n  \&quot;addopt8\&quot;: \&quot;\&quot;,\n  \&quot;fupcde9\&quot;: \&quot;\&quot;,\n  \&quot;clntnum9\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt9\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno9\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk9\&quot;: \&quot;\&quot;,\n  \&quot;fupsts9\&quot;: \&quot;\&quot;,\n  \&quot;delflag9\&quot;: \&quot;\&quot;,\n  \&quot;addopt9\&quot;: \&quot;\&quot;,\n  \&quot;fupcde10\&quot;: \&quot;\&quot;,\n  \&quot;clntnum10\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt10\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno10\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk10\&quot;: \&quot;\&quot;,\n  \&quot;fupsts10\&quot;: \&quot;\&quot;,\n  \&quot;delflag10\&quot;: \&quot;\&quot;,\n  \&quot;addopt10\&quot;: \&quot;\&quot;,\n  \&quot;fupcde11\&quot;: \&quot;\&quot;,\n  \&quot;clntnum11\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt11\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno11\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk11\&quot;: \&quot;\&quot;,\n  \&quot;fupsts11\&quot;: \&quot;\&quot;,\n  \&quot;delflag11\&quot;: \&quot;\&quot;,\n  \&quot;addopt11\&quot;: \&quot;\&quot;,\n  \&quot;fupcde12\&quot;: \&quot;\&quot;,\n  \&quot;clntnum12\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt12\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno12\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk12\&quot;: \&quot;\&quot;,\n  \&quot;fupsts12\&quot;: \&quot;\&quot;,\n  \&quot;delflag12\&quot;: \&quot;\&quot;,\n  \&quot;addopt12\&quot;: \&quot;\&quot;,\n  \&quot;fupcde13\&quot;: \&quot;\&quot;,\n  \&quot;clntnum13\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt1\\r\\n 3\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno13\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk13\&quot;: \&quot;\&quot;,\n  \&quot;fupsts13\&quot;: \&quot;\&quot;,\n  \&quot;delflag13\&quot;: \&quot;\&quot;,\n  \&quot;addopt13\&quot;: \&quot;\&quot;,\n  \&quot;fupcde14\&quot;: \&quot;\&quot;,\n  \&quot;clntnum14\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt14\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno14\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk14\&quot;: \&quot;\&quot;,\n  \&quot;fupsts14\&quot;: \&quot;\&quot;,\n  \&quot;delflag14\&quot;: \&quot;\&quot;,\n  \&quot;addopt14\&quot;: \&quot;\&quot;,\n  \&quot;fupcde15\&quot;: \&quot;\&quot;,\n  \&quot;clntnum15\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt15\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno15\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk15\&quot;: \&quot;\&quot;,\n  \&quot;fupsts15\&quot;: \&quot;\&quot;,\n  \&quot;delflag15\&quot;: \&quot;\&quot;,\n  \&quot;addopt15\&quot;: \&quot;\&quot;,\n  \&quot;fupcde16\&quot;: \&quot;\&quot;,\n  \&quot;clntnum16\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt16\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno16\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk16\&quot;: \&quot;\&quot;,\n  \&quot;fupsts16\&quot;: \&quot;\&quot;,\n  \&quot;delflag16\&quot;: \&quot;\&quot;,\n  \&quot;addopt16\&quot;: \&quot;\&quot;,\n  \&quot;fupcde17\&quot;: \&quot;\&quot;,\n  \&quot;clntnum17\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt17\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno17\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk17\&quot;: \&quot;\&quot;,\n  \&quot;fupsts17\&quot;: \&quot;\&quot;,\n  \&quot;delflag17\&quot;: \&quot;\&quot;,\n  \&quot;addopt17\&quot;: \&quot;\&quot;,\n  \&quot;fupcde18\&quot;: \&quot;\&quot;,\n  \&quot;clntnum18\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt18\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno18\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk18\&quot;: \&quot;\&quot;,\n  \&quot;fupsts18\&quot;: \&quot;\&quot;,\n  \&quot;delflag18\&quot;: \&quot;\&quot;,\n  \&quot;addopt18\&quot;: \&quot;\&quot;,\n  \&quot;fupcde19\&quot;: \&quot;\&quot;,\n  \&quot;clntnum19\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt19\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno19\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk19\&quot;: \&quot;\&quot;,\n  \&quot;fupsts19\&quot;: \&quot;\&quot;,\n  \&quot;delflag19\&quot;: \&quot;\&quot;,\n  \&quot;addopt19\&quot;: \&quot;\&quot;,\n  \&quot;fupcde20\&quot;: \&quot;\&quot;,\n  \&quot;clntnum20\&quot;: \&quot;612201\\r\\n 84\&quot;,\n  \&quot;fupdt20\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno20\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk20\&quot;: \&quot;\&quot;,\n  \&quot;fupsts20\&quot;: \&quot;\&quot;,\n  \&quot;delflag20\&quot;: \&quot;\&quot;,\n  \&quot;addopt20\&quot;: \&quot;\&quot;,\n  \&quot;fupcde21\&quot;: \&quot;\&quot;,\n  \&quot;clntnum21\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt21\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno21\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk21\&quot;: \&quot;\&quot;,\n  \&quot;fupsts21\&quot;: \&quot;\&quot;,\n  \&quot;delflag21\&quot;: \&quot;\&quot;,\n  \&quot;addopt21\&quot;: \&quot;\&quot;,\n  \&quot;fupcde22\&quot;: \&quot;\&quot;,\n  \&quot;clntnum22\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt22\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno22\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk22\&quot;: \&quot;\&quot;,\n  \&quot;fupsts22\&quot;: \&quot;\&quot;,\n  \&quot;delflag22\&quot;: \&quot;\&quot;,\n  \&quot;addopt22\&quot;: \&quot;\&quot;,\n  \&quot;fupcde23\&quot;: \&quot;\&quot;,\n  \&quot;clntnum23\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt23\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno23\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk23\&quot;: \&quot;\&quot;,\n  \&quot;fupsts23\&quot;: \&quot;\&quot;,\n  \&quot;delflag23\&quot;: \&quot;\&quot;,\n  \&quot;addopt23\&quot;: \&quot;\&quot;,\n  \&quot;fupcde24\&quot;: \&quot;\&quot;,\n  \&quot;clntnum24\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt24\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno24\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk24\&quot;: \&quot;\&quot;,\n  \&quot;fupsts24\&quot;: \&quot;\&quot;,\n  \&quot;delflag24\&quot;: \&quot;\&quot;,\n  \&quot;addopt24\&quot;: \&quot;\&quot;,\n  \&quot;fupcde25\&quot;: \&quot;\&quot;,\n  \&quot;clntnum25\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt25\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno25\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk25\&quot;: \&quot;\&quot;,\n  \&quot;fupsts25\&quot;: \&quot;\&quot;,\n  \&quot;delflag25\&quot;: \&quot;\&quot;,\n  \&quot;addopt25\&quot;: \&quot;\&quot;,\n  \&quot;fupcde26\&quot;: \&quot;\&quot;,\n  \&quot;clntnum26\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt26\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno26\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk26\&quot;: \&quot;\&quot;,\n  \&quot;fupsts26\&quot;: \&quot;\&quot;,\n  \&quot;delflag26\&quot;: \&quot;\&quot;,\n  \&quot;addopt26\&quot;: \&quot;\&quot;,\n  \&quot;fupcde27\&quot;: \&quot;\&quot;,\n  \&quot;clntnum27\\r\\n \&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt27\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno27\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk27\&quot;: \&quot;\&quot;,\n  \&quot;fupsts27\&quot;: \&quot;\&quot;,\n  \&quot;delflag27\&quot;: \&quot;\&quot;,\n  \&quot;addopt27\&quot;: \&quot;\&quot;,\n  \&quot;fupcde28\&quot;: \&quot;\&quot;,\n  \&quot;clntnum28\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt28\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno28\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk28\&quot;: \&quot;\&quot;,\n  \&quot;fupsts28\&quot;: \&quot;\&quot;,\n  \&quot;delflag28\&quot;: \&quot;\&quot;,\n  \&quot;addopt28\&quot;: \&quot;\&quot;,\n  \&quot;fupcde29\&quot;: \&quot;\&quot;,\n  \&quot;clntnum29\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt29\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno29\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk29\&quot;: \&quot;\&quot;,\n  \&quot;fupsts29\&quot;: \&quot;\&quot;,\n  \&quot;delflag29\&quot;: \&quot;\&quot;,\n  \&quot;addopt29\&quot;: \&quot;\&quot;,\n  \&quot;fupcde30\&quot;: \&quot;\&quot;,\n  \&quot;clntnum30\&quot;: \&quot;61220184\&quot;,\n  \&quot;fupdt30\&quot;: \&quot;99999999\&quot;,\n  \&quot;fupno30\&quot;: \&quot;\&quot;,\n  \&quot;fuprmk30\&quot;: \&quot;\&quot;,\n  \&quot;fupsts30\&quot;: \&quot;\&quot;,\n  \&quot;delflag30\&quot;: \&quot;\&quot;,\n  \&quot;addopt30\&quot;: \&quot;\&quot;,\n  \&quot;ynflag\&quot;: \&quot;\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrsel\&quot;: \&quot;${chdrsel}\&quot;,\n  \&quot;zaltnumsel\&quot;: \&quot;${zaltnumsel}\&quot;,\n  \&quot;zaltstasel\&quot;: \&quot;${zaltstasel}\&quot;,\n  \&quot;zalttypsel\&quot;: \&quot;${zalttypsel}\&quot;,\n  \&quot;zaltdesc\&quot;: \&quot;${zaltdesc}\&quot;,\n  \&quot;zlastrcvdt\&quot;: \&quot;${zlastrcvdt}\&quot;,\n  \&quot;zcompldt\&quot;: \&quot;${zcompldt}\&quot;,\n  \&quot;fupcde\&quot;: \&quot;${fupcde}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;fupdt\&quot;: \&quot;${fupdt}\&quot;,\n  \&quot;fupno\&quot;: \&quot;${fupno}\&quot;,\n  \&quot;fuprmk\&quot;: \&quot;${fuprmk}\&quot;,\n  \&quot;fupsts\&quot;: \&quot;${fupsts}\&quot;,\n  \&quot;delflag\&quot;: \&quot;${fupsts}\&quot;,\n  \&quot;addopt\&quot;: \&quot;${addopt}\&quot;,\n  \&quot;ynflag\&quot;: \&quot;${ynflag}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,125 @@
       <id>3477746e-07f0-4561-bab2-07d3f3c57361</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>79fafaa6-5e32-4440-aa70-6c0d7e8c5c1f</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>dc097241-6d09-4701-b8c3-f9a3b733c23b</id>
+      <masked>false</masked>
+      <name>chdrsel</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>3bdd5ccb-9965-412f-b894-85c707b63259</id>
+      <masked>false</masked>
+      <name>zaltnumsel</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>5672f61c-1ef8-4858-9f20-7ad961037904</id>
+      <masked>false</masked>
+      <name>zaltstasel</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>44edcfeb-0025-44e4-85f9-2464aaf6e36c</id>
+      <masked>false</masked>
+      <name>zalttypsel</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>108c393c-01c0-4765-8684-cbc92c3236b5</id>
+      <masked>false</masked>
+      <name>zaltdesc</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>ec3b1bc2-b542-4548-9dfd-3dc084c66d5f</id>
+      <masked>false</masked>
+      <name>zlastrcvdt</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>3bea88ec-9f18-4559-b23a-59820df60a72</id>
+      <masked>false</masked>
+      <name>zcompldt</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>1e09fb1d-a215-4777-8e04-63220eaf8252</id>
+      <masked>false</masked>
+      <name>fupcde</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(10, 1)</defaultValue>
+      <description></description>
+      <id>50934e98-c635-4a9b-93e8-478065163b58</id>
+      <masked>false</masked>
+      <name>clntnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(11, 1)</defaultValue>
+      <description></description>
+      <id>d0103185-8408-4a2e-8f61-f66c3fd1a746</id>
+      <masked>false</masked>
+      <name>fupdt</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(12, 1)</defaultValue>
+      <description></description>
+      <id>23752e3c-707a-4bb4-aa82-d786894e9b24</id>
+      <masked>false</masked>
+      <name>fupno</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(13, 1)</defaultValue>
+      <description></description>
+      <id>5ed6e7a8-06e6-4739-a116-d2f3cb85a93f</id>
+      <masked>false</masked>
+      <name>fuprmk</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(14, 1)</defaultValue>
+      <description></description>
+      <id>1f2f5a06-6a90-4249-b6fe-3cb9d2a837a6</id>
+      <masked>false</masked>
+      <name>fupsts</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(15, 1)</defaultValue>
+      <description></description>
+      <id>21fdb4c7-4f3f-4c9a-a472-f829f706165c</id>
+      <masked>false</masked>
+      <name>delflag</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(16, 1)</defaultValue>
+      <description></description>
+      <id>d51ae51b-ec7c-4149-a49a-52954decc06f</id>
+      <masked>false</masked>
+      <name>addopt</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-boalteration/phupdaltfl').getValue(17, 1)</defaultValue>
+      <description></description>
+      <id>3276d60c-7649-492a-b726-4a3314d0c5b5</id>
+      <masked>false</masked>
+      <name>ynflag</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

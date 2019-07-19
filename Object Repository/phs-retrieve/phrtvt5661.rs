@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;FUPCDE\&quot;: \&quot;COM\&quot;,\n  \&quot;OBJID\&quot;: \&quot;PHRTVT5661\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;FUPCDE\&quot;: \&quot;${FUPCDE}\&quot;,\n  \&quot;OBJID\&quot;: \&quot;${OBJID}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,20 @@
       <id>5ee029a7-9496-47bf-aa1d-c4d810c02dab</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-retrieve/phrtvt5661').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>354aa206-0afe-4867-88fa-8d587968805f</id>
+      <masked>false</masked>
+      <name>FUPCDE</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-retrieve/phrtvt5661').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>b07df789-ca6e-4c5a-afc2-53ca4e07caf8</id>
+      <masked>false</masked>
+      <name>OBJID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

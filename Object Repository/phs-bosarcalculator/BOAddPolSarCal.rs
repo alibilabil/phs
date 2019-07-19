@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHADDSARPO\&quot;,\n  \&quot;clntnum\&quot;: \&quot;60074153\&quot;,\n  \&quot;currcy\&quot;: \&quot;IDR\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;90112763\&quot;,\n  \&quot;crtable\&quot;: \&quot;U31R\&quot;,\n  \&quot;rcdate\&quot;: \&quot;99999999\&quot;,\n  \&quot;rcesagenew\&quot;: \&quot;55\&quot;,\n  \&quot;rcestrmnew\&quot;: \&quot;0\&quot;,\n  \&quot;suminsnew\&quot;: \&quot;00000001000000000\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;currcy\&quot;: \&quot;${currcy}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;,\n  \&quot;crtable\&quot;: \&quot;${crtable}\&quot;,\n  \&quot;rcdate\&quot;: \&quot;${rcdate}\&quot;,\n  \&quot;rcesagenew\&quot;: \&quot;${rcesagenew}\&quot;,\n  \&quot;rcestrmnew\&quot;: \&quot;${rcestrmnew}\&quot;,\n  \&quot;suminsnew\&quot;: \&quot;${suminsnew}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,69 @@
       <id>25299225-6894-4f57-9911-35acf6def6b1</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cfa7a010-71f2-4a17-8755-ab7d11531fbe</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>2ed0f6fd-7b56-4c64-a41a-c4ad452214c8</id>
+      <masked>false</masked>
+      <name>clntnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>8a56c03d-4a67-4783-8a86-8270ac23bec4</id>
+      <masked>false</masked>
+      <name>currcy</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>e3b63793-4df8-4952-b3ac-f64fb99e0727</id>
+      <masked>false</masked>
+      <name>chdrnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>ac532d68-34f6-424f-8586-9ae1d64e2286</id>
+      <masked>false</masked>
+      <name>crtable</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>81e40e4e-c6af-4ddf-96a8-9da8b1bec4bd</id>
+      <masked>false</masked>
+      <name>rcdate</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>c195488c-e8bc-4beb-ad9c-8043e64c22bc</id>
+      <masked>false</masked>
+      <name>rcesagenew</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>cac48910-6e34-4bec-a5ad-0025c335b0b1</id>
+      <masked>false</masked>
+      <name>rcestrmnew</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOAddPolSarCal').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>8a5a93b0-8cf2-4b3b-b171-f398918f9e7b</id>
+      <masked>false</masked>
+      <name>suminsnew</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

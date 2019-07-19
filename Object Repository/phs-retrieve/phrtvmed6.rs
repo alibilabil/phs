@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHRTVMED6\&quot;,\n  \&quot;clntnum\&quot;: \&quot;61220184\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,20 @@
       <id>bb5573e3-524b-4ad0-b92d-0b2c7245b6b0</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-retrieve/phrtvmed6').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>902c6128-7661-4a83-b4ee-bdcb62de1c03</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phrtvmed6').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>4ab10fa6-e6a9-4a86-8c37-dba3dcf6c11a</id>
+      <masked>false</masked>
+      <name>clntnum</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

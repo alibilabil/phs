@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To get data from BO PHRTVALTER by chdrnum / policyNo</description>
-   <name>phrtvAlter</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>86e2190a-8650-41d3-bb81-f8d56c0c2ebc</testCaseGuid>
-</TestCaseEntity>

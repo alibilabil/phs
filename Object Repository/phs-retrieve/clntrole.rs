@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;clntnum\&quot;: \&quot;61220184\&quot;,\n  \&quot;OBJID\&quot;: \&quot;CLNTROLE\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;OBJID\&quot;: \&quot;${OBJID}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,20 @@
       <id>43d39d7c-1043-4b97-a9e0-9980d19cf0ff</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('clntrole').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>bbfeae97-129e-47fb-b4df-a43da428a199</id>
+      <masked>false</masked>
+      <name>clntnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('clntrole').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>93204ee9-a9b2-4a61-8343-ed3be2a42565</id>
+      <masked>false</masked>
+      <name>OBJID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

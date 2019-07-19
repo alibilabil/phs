@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;POLENQ\&quot;,\n  \&quot;zchdrsel\&quot;: \&quot;76858132\&quot;,\n  \&quot;propsel\&quot;: \&quot;\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;zchdrsel\&quot;: \&quot;${zchdrsel}\&quot;,\n  \&quot;propsel\&quot;: \&quot;${propsel}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,27 @@
       <id>f7341dab-9b2c-4efe-918c-dfc2f897defc</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-retrieve/getpolenq').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>de1ca9c3-cb8b-4253-856f-e5d7c0cbd821</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-retrieve/getpolenq').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>efe70b11-d195-4901-9e96-6787fbe5524a</id>
+      <masked>false</masked>
+      <name>zchdrsel</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-retrieve/getpolenq').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>199f4a7e-7cc9-43ee-adf5-81eede7fc541</id>
+      <masked>false</masked>
+      <name>propsel</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
