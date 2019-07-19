@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To retrieve client in agent detail on SAR Calculator</description>
+   <name>BOPheqclag</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b76931bf-c3e6-494d-b807-2b614617799b</testCaseGuid>
+</TestCaseEntity>

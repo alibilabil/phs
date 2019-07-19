@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetBydoctype</name>
+   <name>BOLevelComponent</name>
    <tag></tag>
-   <elementGuidId>78d6b8df-d632-44c5-98c3-b3307ca4a7be</elementGuidId>
+   <elementGuidId>eb6ed3e2-0dcb-4536-8d3c-e3391643e252</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;MainDoc\&quot;,\n  \&quot;param\&quot;: null\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot; : \&quot;PHEQSARCOM\&quot;,\n  \&quot;clntnum\&quot; : \&quot;61221316\&quot;,\n  \&quot;currcd\&quot; : \&quot;IDR\&quot;,\n  \&quot;chdrnum\&quot; : \&quot;90013521\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-masterdb/rest/api/docType/getBydoctype</restUrl>
+   <restUrl>${endpoint}/phs-bosarcalculator/rest/api/BOLevelComponent</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -31,7 +31,7 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>6e2e3752-d234-4fe0-90c3-54c70b92674f</id>
+      <id>a2ecfdf3-19bf-46c8-b75a-c347c0e266b4</id>
       <masked>false</masked>
       <name>endpoint</name>
    </variables>
@@ -47,6 +47,7 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

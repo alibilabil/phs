@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To exclude policy on SAR Calculator</description>
+   <name>BOExcludePolSarCal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1ce192a-73b4-48a2-b2a7-603e7b06e43f</testCaseGuid>
+</TestCaseEntity>

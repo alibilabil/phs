@@ -7,6 +7,11 @@
    <GlobalVariableEntity>
       <description>endpoint sit</description>
       <initValue>'http://10.171.86.22'</initValue>
+      <name>endpoints</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>uat</description>
+      <initValue>'http://10.170.49.229'</initValue>
       <name>endpoint</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetBydoctype</name>
+   <name>BOLevelRisk</name>
    <tag></tag>
-   <elementGuidId>78d6b8df-d632-44c5-98c3-b3307ca4a7be</elementGuidId>
+   <elementGuidId>f1725a0d-8def-475e-99c9-0b4ba4f48c49</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;MainDoc\&quot;,\n  \&quot;param\&quot;: null\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHEQSARUW\&quot;,\n  \&quot;clntnum\&quot;: \&quot;52531592\&quot;,\n  \&quot;currcy\&quot;: \&quot;IDR\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;31060667\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-masterdb/rest/api/docType/getBydoctype</restUrl>
+   <restUrl>{endpoint}/phs-sarcalculator/rest/api/BOLevelRisk</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -31,7 +31,7 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>6e2e3752-d234-4fe0-90c3-54c70b92674f</id>
+      <id>8c840e27-4f41-4268-aa28-b1f7d0a001f0</id>
       <masked>false</masked>
       <name>endpoint</name>
    </variables>
@@ -47,6 +47,7 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

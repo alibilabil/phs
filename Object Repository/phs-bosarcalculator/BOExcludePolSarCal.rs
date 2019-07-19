@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetBydoctype</name>
+   <name>BOExcludePolSarCal</name>
    <tag></tag>
-   <elementGuidId>78d6b8df-d632-44c5-98c3-b3307ca4a7be</elementGuidId>
+   <elementGuidId>24de7c0b-e591-4f6e-a4fc-74729c5a8b8d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;MainDoc\&quot;,\n  \&quot;param\&quot;: null\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHEXSARPOL\&quot;,\n  \&quot;clntnum\&quot;: \&quot;52531592\&quot;,\n  \&quot;currcy\&quot;: \&quot;IDR\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;31060667\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-masterdb/rest/api/docType/getBydoctype</restUrl>
+   <restUrl>${endpoint}/phs-sarcalculator/rest/api/BOExcludePolSarCal</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -31,7 +31,7 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>6e2e3752-d234-4fe0-90c3-54c70b92674f</id>
+      <id>3c97e02b-5d13-40ba-9954-42fcf56eb7eb</id>
       <masked>false</masked>
       <name>endpoint</name>
    </variables>
@@ -47,6 +47,7 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

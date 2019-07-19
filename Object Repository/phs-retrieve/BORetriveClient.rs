@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHRTVCLROL\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;90167025\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -31,9 +31,23 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>f190c914-539e-47f0-b818-8da201e0ed1a</id>
+      <id>12b04db4-639d-4a40-8e35-2a5c0105d62e</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('BORetriveClient').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>038ca79b-29cd-444f-a584-617f021fd8a1</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('BORetriveClient').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>657a39bf-8746-4cd4-93ca-8384181e97ca</id>
+      <masked>false</masked>
+      <name>chdrnum</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
@@ -48,6 +62,11 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-</verificationScript>
+
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
