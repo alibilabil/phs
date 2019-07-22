@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>BODelSarCal</name>
+   <name>update</name>
    <tag></tag>
-   <elementGuidId>2006fb2f-cab6-4119-a255-e75d6c287540</elementGuidId>
+   <elementGuidId>ee3dd257-e6f8-4150-aa78-ddfc266c6f76</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n   \&quot;objid\&quot; : \&quot;${objid}\&quot;,\n   \&quot;clntnum\&quot; : \&quot;${clntnum}\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;${docType1}\&quot;,\n  \&quot;param\&quot;: [\n    {\n      \&quot;id\&quot;: ${id},\n      \&quot;docId\&quot;: \&quot;${docId}\&quot;,\n      \&quot;docType\&quot;: \&quot;${docType}\&quot;\n    }\n  ]\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-bosarcalculator/rest/api/BODelSarCal</restUrl>
+   <restUrl>${endpoint}/phs-masterdb/rest/api/docType/update</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -31,23 +31,37 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>3db8d3f4-16da-4323-b219-6fd5d4ad07e7</id>
+      <id>4728165c-6b04-471b-86b9-50b42c87c21c</id>
       <masked>false</masked>
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phs-bosarcalculator/BODelSarCal').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-masterdb/update').getValue(1, 1)</defaultValue>
       <description></description>
-      <id>904b110d-017b-4fcf-9d60-f0c55ded556d</id>
+      <id>7d99dea8-82b6-4eac-8668-1a4ea30b85e3</id>
       <masked>false</masked>
-      <name>objid</name>
+      <name>docType1</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phs-bosarcalculator/BODelSarCal').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-masterdb/update').getValue(2, 1)</defaultValue>
       <description></description>
-      <id>67afab4d-d2f8-4bad-a2ef-c99d7344e1b8</id>
+      <id>98b3580c-215c-4775-9441-d55dfa0454b9</id>
       <masked>false</masked>
-      <name>clntnum</name>
+      <name>id</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-masterdb/update').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>3bc27502-bc05-4b84-b5ad-7a9c8921c0ec</id>
+      <masked>false</masked>
+      <name>docId</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-masterdb/update').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>d3261dde-4d15-4552-8e75-9b90ecd5b707</id>
+      <masked>false</masked>
+      <name>docType</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

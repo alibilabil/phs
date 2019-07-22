@@ -14,8 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-ResponseObject response = WS.sendRequest(findTestObject('phs-bosarcalculator/BODelSarCal', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
-                'phs-bosarcalculator/BODelSarCal').getValue(1, 1), ('clntnum') : findTestData('phs-bosarcalculator/BODelSarCal').getValue(
-                2, 1)]))
+ResponseObject response = WS.sendRequest(findTestObject('phs-masterdb/save', [('docType') : findTestData('phs-masterdb/save').getValue(1, 1), ('docId') : findTestData(
+                'phs-masterdb/save').getValue(2, 1), ('endpoint') : GlobalVariable.endpoint]))
 
 WS.verifyResponseStatusCode(response, 200)

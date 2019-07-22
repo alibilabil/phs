@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>BODelSarCal</name>
+   <name>save</name>
    <tag></tag>
-   <elementGuidId>2006fb2f-cab6-4119-a255-e75d6c287540</elementGuidId>
+   <elementGuidId>62f51a31-4c66-424c-9749-64ca6949cdeb</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n   \&quot;objid\&quot; : \&quot;${objid}\&quot;,\n   \&quot;clntnum\&quot; : \&quot;${clntnum}\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;${docType}\&quot;,\n  \&quot;param\&quot;: [\n    {\n      \&quot;docId\&quot;: \&quot;${docId}\&quot;\n    }\n  ]\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-bosarcalculator/rest/api/BODelSarCal</restUrl>
+   <restUrl>${endpoint}/phs-masterdb/rest/api/docType/save</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -31,23 +31,23 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>3db8d3f4-16da-4323-b219-6fd5d4ad07e7</id>
+      <id>b571babf-e914-406a-9596-4388f843c8dc</id>
       <masked>false</masked>
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phs-bosarcalculator/BODelSarCal').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-masterdb/save').getValue(1, 1)</defaultValue>
       <description></description>
-      <id>904b110d-017b-4fcf-9d60-f0c55ded556d</id>
+      <id>df402082-6ec0-46c9-b3ce-baeddd0d2e49</id>
       <masked>false</masked>
-      <name>objid</name>
+      <name>docType</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phs-bosarcalculator/BODelSarCal').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-masterdb/save').getValue(2, 1)</defaultValue>
       <description></description>
-      <id>67afab4d-d2f8-4bad-a2ef-c99d7344e1b8</id>
+      <id>69e8b560-bf67-4cba-94d5-0fc56a46f47b</id>
       <masked>false</masked>
-      <name>clntnum</name>
+      <name>docId</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

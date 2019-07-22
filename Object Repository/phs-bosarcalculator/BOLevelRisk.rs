@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHEQSARUW\&quot;,\n  \&quot;clntnum\&quot;: \&quot;52531592\&quot;,\n  \&quot;currcy\&quot;: \&quot;IDR\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;31060667\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;currcy\&quot;: \&quot;${currcy}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,34 @@
       <id>8c840e27-4f41-4268-aa28-b1f7d0a001f0</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOLevelRisk').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d72dea86-9399-41c2-aa7f-359e927cc339</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOLevelRisk').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>86d8991a-3750-4642-8b4a-3b4962459e98</id>
+      <masked>false</masked>
+      <name>clntnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOLevelRisk').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>e41fc929-9141-4f48-92c0-5761ae9539d5</id>
+      <masked>false</masked>
+      <name>currcy</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOLevelRisk').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>e5cd419c-3705-4c0e-bd1f-0dc22b104de1</id>
+      <masked>false</masked>
+      <name>chdrnum</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

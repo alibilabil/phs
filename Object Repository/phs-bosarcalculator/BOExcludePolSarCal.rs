@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHEXSARPOL\&quot;,\n  \&quot;clntnum\&quot;: \&quot;52531592\&quot;,\n  \&quot;currcy\&quot;: \&quot;IDR\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;31060667\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;currcy\&quot;: \&quot;${currcy}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,34 @@
       <id>3c97e02b-5d13-40ba-9954-42fcf56eb7eb</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOExcludePolSarCal').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>80fb9f46-0540-47a4-8b9f-fb54c5a3a5cd</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOExcludePolSarCal').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>ec7d2b2e-fbea-4d3b-b072-39cd4eff58cb</id>
+      <masked>false</masked>
+      <name>clntnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOExcludePolSarCal').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>bbc51c85-86b7-4008-a3b2-dd7deae23782</id>
+      <masked>false</masked>
+      <name>currcy</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOExcludePolSarCal').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>244d6fb9-b68e-4c78-8ecb-4ed90219a6e9</id>
+      <masked>false</masked>
+      <name>chdrnum</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

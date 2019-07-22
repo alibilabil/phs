@@ -8,12 +8,19 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-def response = WS.sendRequest(findTestObject('phs-bosarcalculator/BOExcludeComSarCal', [('endpoint') : GlobalVariable.endpoints]))
+ResponseObject response = WS.sendRequest(findTestObject('phs-bosarcalculator/BOExcludeComSarCal', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
+                'phs-bosarcalculator/BOExcludeComSarCal').getValue(1, 1), ('clntnum') : findTestData('phs-bosarcalculator/BOExcludeComSarCal').getValue(
+                2, 1), ('currcy') : findTestData('phs-bosarcalculator/BOExcludeComSarCal').getValue(3, 1), ('chdrnum') : findTestData(
+                'phs-bosarcalculator/BOExcludeComSarCal').getValue(4, 1), ('rider') : findTestData('phs-bosarcalculator/BOExcludeComSarCal').getValue(
+                5, 1), ('crtable') : findTestData('phs-bosarcalculator/BOExcludeComSarCal').getValue(6, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)
+
+
 

@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHEQSARCOM\&quot;,\n  \&quot;clntnum\&quot;: \&quot;60017196\&quot;,\n  \&quot;currcy\&quot;: \&quot;IDR\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;90167025\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${objid}\&quot;,\n  \&quot;currcy\&quot;: \&quot;${currcy}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,34 @@
       <id>56c7db92-5c47-4742-8bfe-6fde0d6b736b</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOEnquirySar').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>540cdc48-6955-4b4b-a5d5-eb7ffec8595b</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOEnquirySar').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>22093d92-b6d7-43b7-a3c5-36edd6eb0361</id>
+      <masked>false</masked>
+      <name>clntnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOEnquirySar').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>e03dc613-9dfd-4489-9059-a630969d448d</id>
+      <masked>false</masked>
+      <name>currcy</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOEnquirySar').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>59c1ad5f-4948-4491-a525-f5d3799a6061</id>
+      <masked>false</masked>
+      <name>chdrnum</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

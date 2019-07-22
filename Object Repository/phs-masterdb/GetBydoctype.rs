@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;MainDoc\&quot;,\n  \&quot;param\&quot;: null\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;${docType}\&quot;,\n  \&quot;param\&quot;: ${param}\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,20 @@
       <id>6e2e3752-d234-4fe0-90c3-54c70b92674f</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-masterdb/getBydoctype').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>12bc8f04-264d-41b1-92d5-7c8962f2e77b</id>
+      <masked>false</masked>
+      <name>docType</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-masterdb/getBydoctype').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>d34736ac-1aaa-4232-840b-dcf464049370</id>
+      <masked>false</masked>
+      <name>param</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

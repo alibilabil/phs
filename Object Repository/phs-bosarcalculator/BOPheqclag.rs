@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;PHEQCLAG\&quot;,\n  \&quot;clntnum\&quot;: \&quot;68092891\&quot;,\n  \&quot;currcd\&quot;: \&quot;IDR\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;12254484\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;currcd\&quot;: \&quot;${currcd}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum)\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -34,6 +34,34 @@
       <id>dd113290-6094-474f-9252-5f3e06fee029</id>
       <masked>false</masked>
       <name>endpoint</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOPheqclag').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>fcf9f4a9-35e1-4c20-85ca-7f13948bba48</id>
+      <masked>false</masked>
+      <name>objid</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOPheqclag').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>3aaa5acb-e42f-42e6-97ae-47da4712b3f2</id>
+      <masked>false</masked>
+      <name>clntnum</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOPheqclag').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>884c27e0-140b-443f-9426-965ef5fa2066</id>
+      <masked>false</masked>
+      <name>currcd</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('phs-bosarcalculator/BOPheqclag').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>ebca2c8c-1e16-46ff-a676-383c3512df84</id>
+      <masked>false</masked>
+      <name>chdrnum</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
