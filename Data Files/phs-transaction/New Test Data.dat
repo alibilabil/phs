@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>New Test Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>037655ff-46c4-46cd-bbba-58affc62bd55</dataFileGUID>
+   <dataSourceUrl>jdbc:postgresql://10.171.86.72:5432/nbwf?currentSchema=phswf</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>UGFzc3dvcmQwOQ==</password>
+   <query>select * from phs_transaction</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>wfuser</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
