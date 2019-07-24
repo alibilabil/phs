@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>save</name>
+   <name>phsParamSave</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a37f204f-e465-45c6-8d1c-96a8742285e8</testCaseGuid>
+   <testCaseGuid>e9806e61-1b2e-4ffe-b7ee-1fbf2360b30f</testCaseGuid>
 </TestCaseEntity>

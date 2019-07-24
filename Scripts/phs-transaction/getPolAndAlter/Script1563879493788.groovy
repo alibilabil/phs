@@ -14,7 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-ResponseObject response = WS.sendRequest(findTestObject('phs-masterdb/save', [('docType') : findTestData('phs-masterdb/save').getValue(1, 1), ('docId') : findTestData(
-                'phs-masterdb/save').getValue(2, 1), ('endpoint') : GlobalVariable.endpoint]))
+ResponseObject response =WS.sendRequest(findTestObject('phs-transaction/getPolAndAlter', [('endpoint') : GlobalVariable.endpoint, ('genId') : findTestData(
+                'phs-transaction/getPolAndAlter').getValue(1, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)

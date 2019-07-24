@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>save</name>
+   <name>getBydocid</name>
    <tag></tag>
-   <elementGuidId>62f51a31-4c66-424c-9749-64ca6949cdeb</elementGuidId>
+   <elementGuidId>b645d1b7-8def-48db-9e99-7a4094eccd6d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;docType\&quot;: \&quot;${docType}\&quot;,\n  \&quot;param\&quot;: [\n    {\n      \&quot;docId\&quot;: \&quot;${docId}\&quot;\n    }\n  ]\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;docId\&quot;: \&quot;${docId}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-masterdb/rest/api/docType/save</restUrl>
+   <restUrl>${endpoint}/phs-masterdb/rest/api/getDocType/getBydocid</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -31,21 +31,14 @@
    <variables>
       <defaultValue>GlobalVariable.endpoint</defaultValue>
       <description></description>
-      <id>b571babf-e914-406a-9596-4388f843c8dc</id>
+      <id>6d14bcc5-6797-4578-a295-70ee30ffdffc</id>
       <masked>false</masked>
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phs-masterdb/save').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-masterdb/getBydocid').getValue(1, 1)</defaultValue>
       <description></description>
-      <id>df402082-6ec0-46c9-b3ce-baeddd0d2e49</id>
-      <masked>false</masked>
-      <name>docType</name>
-   </variables>
-   <variables>
-      <defaultValue>findTestData('phs-masterdb/save').getValue(2, 1)</defaultValue>
-      <description></description>
-      <id>69e8b560-bf67-4cba-94d5-0fc56a46f47b</id>
+      <id>4bd9b6b0-42e2-449b-a4ac-6d5c074f6eec</id>
       <masked>false</masked>
       <name>docId</name>
    </variables>
