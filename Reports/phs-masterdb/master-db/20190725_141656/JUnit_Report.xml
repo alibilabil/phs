@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="master-db" time="7" tests="1" failures="0" errors="0">
+   <testsuite name="master-db" tests="1" failures="0" errors="0" time="7" timestamp="2019-07-25 14:17:04" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/phs-masterdb/master-db">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_141656"/>
+         <property name="logFiles" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_141656\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+         <property name="hostAddress" value="10.170.236.42"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/phs-masterdb/getByparamType" classname="Test Cases/phs-masterdb/getByparamType" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:17:04 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getByparamType: Test Cases/phs-masterdb/getByparamType
+
+2019-07-25 14:17:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getByparamType", ["endpoint":endpoint, "id":findTestData("phs-masterdb/getByparamType").getValue(1, 1), "param":findTestData("phs-masterdb/getByparamType").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:17:11 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_141656\requests\main\0.har
+
+2019-07-25 14:17:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:17:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:17:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-25 14:17:04 - [TEST_SUITE][PASSED] - master-db: Test Cases/phs-masterdb/getByparamType]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-25T14:24:15</date>
+  <millis>1564039455743</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/phs-masterdb/master-db</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">master-db</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/phs-masterdb/master-db</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:15</date>
+  <millis>1564039455766</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = c19679 - LIDLIFE38B0WS.PRU.intranet.asia</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">c19679 - LIDLIFE38B0WS.PRU.intranet.asia</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:15</date>
+  <millis>1564039455767</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:15</date>
+  <millis>1564039455767</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.170.236.42</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.170.236.42</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:15</date>
+  <millis>1564039455769</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.0.1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:16</date>
+  <millis>1564039456240</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/DocTypeSave</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/DocTypeSave</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/DocTypeSave</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\DocTypeSave.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:17</date>
+  <millis>1564039457127</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/DocTypeSave\&amp;quot;, [\&amp;quot;docType\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/save\&amp;quot;).getValue(1, 1), \&amp;quot;docId\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/save\&amp;quot;).getValue(2, 1), \&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461766</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">c7037b2f-a245-426b-8eb2-c8fff363fcfa</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461908</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461909</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/DocTypeSave\&amp;quot;, [\&amp;quot;docType\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/save\&amp;quot;).getValue(1, 1), \&amp;quot;docId\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/save\&amp;quot;).getValue(2, 1), \&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461912</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461928</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461929</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461929</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/DocTypeSave</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461929</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/DocTypeSave</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:21</date>
+  <millis>1564039461939</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/ExtTypeSave</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/ExtTypeSave</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/ExtTypeSave</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\ExtTypeSave.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462291</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/extTypeSave\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/extTypeSave\&amp;quot;).getValue(1, 1), \&amp;quot;mime\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/extTypeSave\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462738</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">04a8aed8-a2d5-4f28-9068-5e313cc7bd9a</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462757</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462758</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/extTypeSave\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/extTypeSave\&amp;quot;).getValue(1, 1), \&amp;quot;mime\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/extTypeSave\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462758</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462762</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462762</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462763</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/ExtTypeSave</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462763</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/ExtTypeSave</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:22</date>
+  <millis>1564039462768</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/extTypeUpdate</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/extTypeUpdate</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/extTypeUpdate</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\extTypeUpdate.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463116</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/ExtTypeUpdate\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/extTypeUpdate\&amp;quot;).getValue(1, 1), \&amp;quot;mime\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/extTypeUpdate\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463435</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">9dc200ab-6b10-49b5-9787-4024cda84171</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463438</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463439</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/ExtTypeUpdate\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/extTypeUpdate\&amp;quot;).getValue(1, 1), \&amp;quot;mime\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/extTypeUpdate\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463439</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463442</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463443</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463443</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/extTypeUpdate</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463444</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/extTypeUpdate</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463449</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/findByAgentCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/findByAgentCode</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/findByAgentCode</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\findByAgentCode.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463828</millis>
+  <sequence>100</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/findByAgentCode\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;agentCode\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/findByAgentCode\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463937</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b3251d97-e85a-4432-9a8e-bfa99fd13066</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463940</millis>
+  <sequence>109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463940</millis>
+  <sequence>110</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/findByAgentCode\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;agentCode\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/findByAgentCode\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463941</millis>
+  <sequence>111</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463948</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463948</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463948</millis>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/findByAgentCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463949</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/findByAgentCode</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:23</date>
+  <millis>1564039463954</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/getall</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/getall</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/getall</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\getall.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464306</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getall\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464367</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">dad3023d-b785-4a6e-8515-2590a8e76b64</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464370</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464370</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getall\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464370</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464372</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464373</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464373</millis>
+  <sequence>130</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/getall</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464373</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/getall</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464377</millis>
+  <sequence>132</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/getBydocid</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/getBydocid</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/getBydocid</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\getBydocid.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464793</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getBydocid\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;docId\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getBydocid\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464939</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">93407518-690a-45be-a3c8-57871a4d2a67</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464943</millis>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464944</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getBydocid\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;docId\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getBydocid\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464944</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464947</millis>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464947</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464948</millis>
+  <sequence>149</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/getBydocid</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464948</millis>
+  <sequence>150</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/getBydocid</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:24</date>
+  <millis>1564039464954</millis>
+  <sequence>151</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/getByParam</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/getByParam</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/getByParam</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\getByParam.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465327</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/GetByParam\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getByParam\&amp;quot;).getValue(1, 1), \&amp;quot;param\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getByParam\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465518</millis>
+  <sequence>169</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\6.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a85422a8-265e-43c5-b077-02cbfcd552a4</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465521</millis>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465521</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/GetByParam\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getByParam\&amp;quot;).getValue(1, 1), \&amp;quot;param\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getByParam\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465522</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465524</millis>
+  <sequence>174</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465524</millis>
+  <sequence>175</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465525</millis>
+  <sequence>176</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/getByParam</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465525</millis>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/getByParam</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465530</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/getByparamType</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/getByparamType</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/getByparamType</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\getByparamType.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:25</date>
+  <millis>1564039465955</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getByparamType\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getByparamType\&amp;quot;).getValue(1, 1), \&amp;quot;param\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getByparamType\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466184</millis>
+  <sequence>200</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\7.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">0d96f168-98b3-4629-8838-ae35d27875a8</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466186</millis>
+  <sequence>201</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466188</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getByparamType\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getByparamType\&amp;quot;).getValue(1, 1), \&amp;quot;param\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getByparamType\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466188</millis>
+  <sequence>203</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466191</millis>
+  <sequence>205</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466191</millis>
+  <sequence>206</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466192</millis>
+  <sequence>207</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/getByparamType</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466192</millis>
+  <sequence>208</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/getByparamType</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466197</millis>
+  <sequence>209</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/GetDocType</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/GetDocType</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/GetDocType</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\GetDocType.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466603</millis>
+  <sequence>211</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/GetBydoctype\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;docType\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getBydoctype\&amp;quot;).getValue(1, 1), \&amp;quot;param\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getBydoctype\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466742</millis>
+  <sequence>223</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\8.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">d09ce3b5-8f88-42d3-8d53-785a8e864209</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466753</millis>
+  <sequence>224</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466754</millis>
+  <sequence>225</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/GetBydoctype\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;docType\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getBydoctype\&amp;quot;).getValue(1, 1), \&amp;quot;param\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getBydoctype\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466755</millis>
+  <sequence>226</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466784</millis>
+  <sequence>227</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466784</millis>
+  <sequence>228</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : result = slurper.parseText(response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Convert JsonResponse to JsonObject</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466831</millis>
+  <sequence>229</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : result = slurper.parseText(response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466831</millis>
+  <sequence>230</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : newResult = slurper.parseText(message)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Convert Json with message data to JsonObject</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466847</millis>
+  <sequence>231</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : newResult = slurper.parseText(message)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466847</millis>
+  <sequence>232</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466851</millis>
+  <sequence>234</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466851</millis>
+  <sequence>235</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466851</millis>
+  <sequence>236</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/GetDocType</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466852</millis>
+  <sequence>237</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/GetDocType</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:26</date>
+  <millis>1564039466857</millis>
+  <sequence>238</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/getExtByvalue</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/getExtByvalue</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/getExtByvalue</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\getExtByvalue.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467273</millis>
+  <sequence>240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getExtByvalue\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;value\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getExtByvalue\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467394</millis>
+  <sequence>248</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\9.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ae65c991-76a7-40ce-a263-d713ee1445fe</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467397</millis>
+  <sequence>249</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467398</millis>
+  <sequence>250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getExtByvalue\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;value\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getExtByvalue\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467398</millis>
+  <sequence>251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467401</millis>
+  <sequence>253</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467401</millis>
+  <sequence>254</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467402</millis>
+  <sequence>255</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/getExtByvalue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467403</millis>
+  <sequence>256</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/getExtByvalue</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467408</millis>
+  <sequence>257</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/getType</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/getType</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/getType</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\getType.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467772</millis>
+  <sequence>259</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getType\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;type\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getType\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467864</millis>
+  <sequence>267</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\10.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f6d43e80-2275-4fe4-9b1e-74984fe6eb15</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467866</millis>
+  <sequence>268</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467867</millis>
+  <sequence>269</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/getType\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;type\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/getType\&amp;quot;).getValue(1, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467867</millis>
+  <sequence>270</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467869</millis>
+  <sequence>272</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467869</millis>
+  <sequence>273</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467869</millis>
+  <sequence>274</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/getType</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467869</millis>
+  <sequence>275</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/getType</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:27</date>
+  <millis>1564039467873</millis>
+  <sequence>276</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/phsParamSave</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/phsParamSave</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/phsParamSave</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\phsParamSave.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468229</millis>
+  <sequence>278</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/phsParamSave\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/phsParamSave\&amp;quot;).getValue(1, 1), \&amp;quot;param\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/phsParamSave\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468454</millis>
+  <sequence>298</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\11.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">315dd955-6ea9-42b7-bcce-753fdd3d9132</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468456</millis>
+  <sequence>299</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468456</millis>
+  <sequence>300</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/phsParamSave\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/phsParamSave\&amp;quot;).getValue(1, 1), \&amp;quot;param\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/phsParamSave\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468456</millis>
+  <sequence>301</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468458</millis>
+  <sequence>303</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468458</millis>
+  <sequence>304</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468459</millis>
+  <sequence>305</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/phsParamSave</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468459</millis>
+  <sequence>306</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/phsParamSave</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468463</millis>
+  <sequence>307</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-masterdb/update</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-masterdb/update</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-masterdb/update</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-masterdb\\update.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468793</millis>
+  <sequence>309</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/update\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;docType1\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/update\&amp;quot;).getValue(1, 1), \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/update\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468995</millis>
+  <sequence>329</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142412\\requests\\main\\12.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">ac1d68b6-57a0-4e8b-9e7e-3b9d97252a05</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468999</millis>
+  <sequence>330</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468999</millis>
+  <sequence>331</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-masterdb/update\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;docType1\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/update\&amp;quot;).getValue(1, 1), \&amp;quot;id\&amp;quot;:findTestData(\&amp;quot;phs-masterdb/update\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:28</date>
+  <millis>1564039468999</millis>
+  <sequence>332</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T14:24:29</date>
+  <millis>1564039469002</millis>
+  <sequence>334</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:29</date>
+  <millis>1564039469002</millis>
+  <sequence>335</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:29</date>
+  <millis>1564039469003</millis>
+  <sequence>336</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-masterdb/update</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:29</date>
+  <millis>1564039469003</millis>
+  <sequence>337</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-masterdb/update</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T14:24:29</date>
+  <millis>1564039469080</millis>
+  <sequence>338</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/phs-masterdb/master-db</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

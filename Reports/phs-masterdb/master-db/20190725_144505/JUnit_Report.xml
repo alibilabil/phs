@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="master-db" time="16" tests="13" failures="0" errors="0">
+   <testsuite name="master-db" tests="13" failures="0" errors="0" time="16" timestamp="2019-07-25 14:45:09" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/phs-masterdb/master-db">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_144505"/>
+         <property name="logFiles" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_144505\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+         <property name="hostAddress" value="10.170.236.42"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/phs-masterdb/DocTypeSave" classname="Test Cases/phs-masterdb/DocTypeSave" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:09 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/DocTypeSave: Test Cases/phs-masterdb/DocTypeSave
+
+2019-07-25 14:45:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/DocTypeSave", ["docType":findTestData("phs-masterdb/save").getValue(1, 1), "docId":findTestData("phs-masterdb/save").getValue(2, 1), "endpoint":endpoint])): Send request successfully
+
+2019-07-25 14:45:18 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\0.har
+
+2019-07-25 14:45:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:18 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/ExtTypeSave" classname="Test Cases/phs-masterdb/ExtTypeSave" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:18 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/ExtTypeSave: Test Cases/phs-masterdb/ExtTypeSave
+
+2019-07-25 14:45:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/extTypeSave", ["endpoint":endpoint, "id":findTestData("phs-masterdb/extTypeSave").getValue(1, 1), "mime":findTestData("phs-masterdb/extTypeSave").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:45:19 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\1.har
+
+2019-07-25 14:45:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:19 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/extTypeUpdate" classname="Test Cases/phs-masterdb/extTypeUpdate" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:19 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/extTypeUpdate: Test Cases/phs-masterdb/extTypeUpdate
+
+2019-07-25 14:45:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/ExtTypeUpdate", ["endpoint":endpoint, "id":findTestData("phs-masterdb/extTypeUpdate").getValue(1, 1), "mime":findTestData("phs-masterdb/extTypeUpdate").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:45:19 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\2.har
+
+2019-07-25 14:45:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:19 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/findByAgentCode" classname="Test Cases/phs-masterdb/findByAgentCode" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:19 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/findByAgentCode: Test Cases/phs-masterdb/findByAgentCode
+
+2019-07-25 14:45:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/findByAgentCode", ["endpoint":endpoint, "agentCode":findTestData("phs-masterdb/findByAgentCode").getValue(1, 1)])): Send request successfully
+
+2019-07-25 14:45:20 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\3.har
+
+2019-07-25 14:45:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:20 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getall" classname="Test Cases/phs-masterdb/getall" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:20 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getall: Test Cases/phs-masterdb/getall
+
+2019-07-25 14:45:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getall", ["endpoint":endpoint])): Send request successfully
+
+2019-07-25 14:45:20 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\4.har
+
+2019-07-25 14:45:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:20 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getBydocid" classname="Test Cases/phs-masterdb/getBydocid" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:20 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getBydocid: Test Cases/phs-masterdb/getBydocid
+
+2019-07-25 14:45:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getBydocid", ["endpoint":endpoint, "docId":findTestData("phs-masterdb/getBydocid").getValue(1, 1)])): Send request successfully
+
+2019-07-25 14:45:21 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\5.har
+
+2019-07-25 14:45:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:21 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getByParam" classname="Test Cases/phs-masterdb/getByParam" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:21 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getByParam: Test Cases/phs-masterdb/getByParam
+
+2019-07-25 14:45:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/GetByParam", ["endpoint":endpoint, "id":findTestData("phs-masterdb/getByParam").getValue(1, 1), "param":findTestData("phs-masterdb/getByParam").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:45:21 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\6.har
+
+2019-07-25 14:45:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:21 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getByparamType" classname="Test Cases/phs-masterdb/getByparamType" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:21 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getByparamType: Test Cases/phs-masterdb/getByparamType
+
+2019-07-25 14:45:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getByparamType", ["endpoint":endpoint, "id":findTestData("phs-masterdb/getByparamType").getValue(1, 1), "param":findTestData("phs-masterdb/getByparamType").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:45:22 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\7.har
+
+2019-07-25 14:45:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:22 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/GetDocType" classname="Test Cases/phs-masterdb/GetDocType" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:22 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/GetDocType: Test Cases/phs-masterdb/GetDocType
+
+2019-07-25 14:45:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/GetBydoctype", ["endpoint":endpoint, "docType":findTestData("phs-masterdb/getBydoctype").getValue(1, 1), "param":findTestData("phs-masterdb/getBydoctype").getValue(2, 1)])): Send request successfully
+
+2019-07-25 14:45:23 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\8.har
+
+2019-07-25 14:45:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:23 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2019-07-25 14:45:23 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null
+
+2019-07-25 14:45:23 - [TEST_STEP][PASSED] - newResult = slurper.parseText(message): null
+
+2019-07-25 14:45:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:23 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getExtByvalue" classname="Test Cases/phs-masterdb/getExtByvalue" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:23 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getExtByvalue: Test Cases/phs-masterdb/getExtByvalue
+
+2019-07-25 14:45:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getExtByvalue", ["endpoint":endpoint, "value":findTestData("phs-masterdb/getExtByvalue").getValue(1, 1)])): Send request successfully
+
+2019-07-25 14:45:23 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\9.har
+
+2019-07-25 14:45:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:23 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getType" classname="Test Cases/phs-masterdb/getType" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:23 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getType: Test Cases/phs-masterdb/getType
+
+2019-07-25 14:45:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getType", ["endpoint":endpoint, "type":findTestData("phs-masterdb/getType").getValue(1, 1)])): Send request successfully
+
+2019-07-25 14:45:24 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\10.har
+
+2019-07-25 14:45:24 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:24 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/phsParamSave" classname="Test Cases/phs-masterdb/phsParamSave" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:24 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/phsParamSave: Test Cases/phs-masterdb/phsParamSave
+
+2019-07-25 14:45:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/phsParamSave", ["endpoint":endpoint, "id":findTestData("phs-masterdb/phsParamSave").getValue(1, 1), "param":findTestData("phs-masterdb/phsParamSave").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:45:24 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\11.har
+
+2019-07-25 14:45:24 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:24 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/update" classname="Test Cases/phs-masterdb/update" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:45:24 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/update: Test Cases/phs-masterdb/update
+
+2019-07-25 14:45:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/update", ["endpoint":endpoint, "docType1":findTestData("phs-masterdb/update").getValue(1, 1), "id":findTestData("phs-masterdb/update").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:45:25 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_144505\requests\main\12.har
+
+2019-07-25 14:45:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:45:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:45:25 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-25 14:45:09 - [TEST_SUITE][PASSED] - master-db: Test Cases/phs-masterdb/update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

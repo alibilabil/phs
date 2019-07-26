@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+phs-boalter,,,2019-07-26 13:56:50,2019-07-26 13:57:40,49.774s,FAILED
+,,,,,,
+Test Cases/phs-boalter/phrtvalter,,,2019-07-26 13:56:50,2019-07-26 13:56:53,2.597s,FAILED
+"response = sendRequest(findTestObject(""phs-boalter/phrtvalter"", [""ednpoint"":endpoint, ""objid"":findTestData(""phs-boalteration/phrtvalter"").getValue(1, 1), ""chdrnum"":findTestData(""phs-boalteration/phrtvalter"").getValue(2, 1)]))",,,2019-07-26 13:56:51,2019-07-26 13:56:53,1.853s,FAILED
+,,,,,,
+Test Cases/phs-boalter/phrtvaltfu,,To retrieve follow up code based on no policy and alteration number,2019-07-26 13:56:53,2019-07-26 13:56:56,3.442s,FAILED
+"response = sendRequest(findTestObject(""phs-boalter/phrtvaltfu"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-boalteration/phrtvaltfu"").getValue(1, 1), ""chdrnum"":findTestData(""phs-boalteration/phrtvaltfu"").getValue(2, 1), ... ]))",,,2019-07-26 13:56:53,2019-07-26 13:56:56,2.935s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-26 13:56:56,2019-07-26 13:56:56,0.035s,FAILED
+,,,,,,
+Test Cases/phs-boalter/phupdaltfl,,To add or update or delete alteration and follow up,2019-07-26 13:56:56,2019-07-26 13:57:18,21.690s,FAILED
+"response = sendRequest(findTestObject(""phs-boalter/phupdaltfl"", [""endpoint"":endpoints]))",,,2019-07-26 13:56:57,2019-07-26 13:57:18,21.073s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-26 13:57:18,2019-07-26 13:57:18,0.029s,FAILED
+,,,,,,
+Test Cases/phs-boalter/phupdimp,,To add update delete impairment code and reason code,2019-07-26 13:57:18,2019-07-26 13:57:40,21.457s,FAILED
+"response = sendRequest(findTestObject(""phs-boalter/phupdimp"", [""endpoint"":endpoints]))",,,2019-07-26 13:57:18,2019-07-26 13:57:40,21.064s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-26 13:57:40,2019-07-26 13:57:40,0.019s,FAILED

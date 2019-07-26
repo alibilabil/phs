@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+master-db,,,2019-07-25 14:24:15,2019-07-25 14:24:29,13.337s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/DocTypeSave,,,2019-07-25 14:24:16,2019-07-25 14:24:21,5.689s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/DocTypeSave"", [""docType"":findTestData(""phs-masterdb/save"").getValue(1, 1), ""docId"":findTestData(""phs-masterdb/save"").getValue(2, 1), ""endpoint"":endpoint]))",,,2019-07-25 14:24:17,2019-07-25 14:24:21,4.782s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:21,2019-07-25 14:24:21,0.017s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/ExtTypeSave,,,2019-07-25 14:24:21,2019-07-25 14:24:22,0.824s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/extTypeSave"", [""endpoint"":endpoint, ""id"":findTestData(""phs-masterdb/extTypeSave"").getValue(1, 1), ""mime"":findTestData(""phs-masterdb/extTypeSave"").getValue(2, 1), ... ]))",,,2019-07-25 14:24:22,2019-07-25 14:24:22,0.467s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:22,2019-07-25 14:24:22,0.004s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/extTypeUpdate,,,2019-07-25 14:24:22,2019-07-25 14:24:23,0.676s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/ExtTypeUpdate"", [""endpoint"":endpoint, ""id"":findTestData(""phs-masterdb/extTypeUpdate"").getValue(1, 1), ""mime"":findTestData(""phs-masterdb/extTypeUpdate"").getValue(2, 1), ... ]))",,,2019-07-25 14:24:23,2019-07-25 14:24:23,0.323s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:23,2019-07-25 14:24:23,0.004s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/findByAgentCode,,,2019-07-25 14:24:23,2019-07-25 14:24:23,0.500s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/findByAgentCode"", [""endpoint"":endpoint, ""agentCode"":findTestData(""phs-masterdb/findByAgentCode"").getValue(1, 1)]))",,,2019-07-25 14:24:23,2019-07-25 14:24:23,0.112s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:23,2019-07-25 14:24:23,0.007s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/getall,,,2019-07-25 14:24:23,2019-07-25 14:24:24,0.419s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/getall"", [""endpoint"":endpoint]))",,,2019-07-25 14:24:24,2019-07-25 14:24:24,0.064s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:24,2019-07-25 14:24:24,0.003s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/getBydocid,,,2019-07-25 14:24:24,2019-07-25 14:24:24,0.571s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/getBydocid"", [""endpoint"":endpoint, ""docId"":findTestData(""phs-masterdb/getBydocid"").getValue(1, 1)]))",,,2019-07-25 14:24:24,2019-07-25 14:24:24,0.151s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:24,2019-07-25 14:24:24,0.003s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/getByParam,,,2019-07-25 14:24:24,2019-07-25 14:24:25,0.571s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/GetByParam"", [""endpoint"":endpoint, ""id"":findTestData(""phs-masterdb/getByParam"").getValue(1, 1), ""param"":findTestData(""phs-masterdb/getByParam"").getValue(2, 1), ... ]))",,,2019-07-25 14:24:25,2019-07-25 14:24:25,0.194s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:25,2019-07-25 14:24:25,0.002s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/getByparamType,,,2019-07-25 14:24:25,2019-07-25 14:24:26,0.662s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/getByparamType"", [""endpoint"":endpoint, ""id"":findTestData(""phs-masterdb/getByparamType"").getValue(1, 1), ""param"":findTestData(""phs-masterdb/getByparamType"").getValue(2, 1), ... ]))",,,2019-07-25 14:24:25,2019-07-25 14:24:26,0.233s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:26,2019-07-25 14:24:26,0.003s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/GetDocType,,,2019-07-25 14:24:26,2019-07-25 14:24:26,0.655s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/GetBydoctype"", [""endpoint"":endpoint, ""docType"":findTestData(""phs-masterdb/getBydoctype"").getValue(1, 1), ""param"":findTestData(""phs-masterdb/getBydoctype"").getValue(2, 1)]))",,,2019-07-25 14:24:26,2019-07-25 14:24:26,0.151s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-07-25 14:24:26,2019-07-25 14:24:26,0.029s,PASSED
+result = slurper.parseText(response.getResponseBodyContent()),,Convert JsonResponse to JsonObject,2019-07-25 14:24:26,2019-07-25 14:24:26,0.047s,PASSED
+newResult = slurper.parseText(message),,Convert Json with message data to JsonObject,2019-07-25 14:24:26,2019-07-25 14:24:26,0.016s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:26,2019-07-25 14:24:26,0.004s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/getExtByvalue,,,2019-07-25 14:24:26,2019-07-25 14:24:27,0.546s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/getExtByvalue"", [""endpoint"":endpoint, ""value"":findTestData(""phs-masterdb/getExtByvalue"").getValue(1, 1)]))",,,2019-07-25 14:24:27,2019-07-25 14:24:27,0.125s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:27,2019-07-25 14:24:27,0.003s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/getType,,,2019-07-25 14:24:27,2019-07-25 14:24:27,0.461s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/getType"", [""endpoint"":endpoint, ""type"":findTestData(""phs-masterdb/getType"").getValue(1, 1)]))",,,2019-07-25 14:24:27,2019-07-25 14:24:27,0.095s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:27,2019-07-25 14:24:27,0.002s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/phsParamSave,,,2019-07-25 14:24:27,2019-07-25 14:24:28,0.586s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/phsParamSave"", [""endpoint"":endpoint, ""id"":findTestData(""phs-masterdb/phsParamSave"").getValue(1, 1), ""param"":findTestData(""phs-masterdb/phsParamSave"").getValue(2, 1), ... ]))",,,2019-07-25 14:24:28,2019-07-25 14:24:28,0.227s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:28,2019-07-25 14:24:28,0.002s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/update,,,2019-07-25 14:24:28,2019-07-25 14:24:29,0.540s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/update"", [""endpoint"":endpoint, ""docType1"":findTestData(""phs-masterdb/update"").getValue(1, 1), ""id"":findTestData(""phs-masterdb/update"").getValue(2, 1), ... ]))",,,2019-07-25 14:24:28,2019-07-25 14:24:28,0.206s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:24:28,2019-07-25 14:24:29,0.003s,PASSED

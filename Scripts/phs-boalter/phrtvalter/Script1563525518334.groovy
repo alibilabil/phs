@@ -14,7 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-ResponseObject response = WS.sendRequest(findTestObject('phs-boalter/phrtvalter', [('ednpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
+ResponseObject response = WS.sendRequest(findTestObject('phs-boalter/phrtvalter', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
                 'phs-boalteration/phrtvalter').getValue(1, 1), ('chdrnum') : findTestData('phs-boalteration/phrtvalter').getValue(
                 2, 1)]))
 WS.verifyResponseStatusCode(response, 200)

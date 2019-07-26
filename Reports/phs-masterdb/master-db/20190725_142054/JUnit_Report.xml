@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="master-db" time="15" tests="12" failures="1" errors="0">
+   <testsuite name="master-db" tests="12" failures="1" errors="0" time="15" timestamp="2019-07-25 14:20:57" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/phs-masterdb/master-db">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142054"/>
+         <property name="logFiles" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-masterdb\\master-db\\20190725_142054\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+         <property name="hostAddress" value="10.170.236.42"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/phs-masterdb/DocTypeSave" classname="Test Cases/phs-masterdb/DocTypeSave" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:20:58 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/DocTypeSave: Test Cases/phs-masterdb/DocTypeSave
+
+2019-07-25 14:20:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/DocTypeSave", ["docType":findTestData("phs-masterdb/save").getValue(1, 1), "docId":findTestData("phs-masterdb/save").getValue(2, 1), "endpoint":endpoint])): Send request successfully
+
+2019-07-25 14:21:03 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\0.har
+
+2019-07-25 14:21:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/ExtTypeSave" classname="Test Cases/phs-masterdb/ExtTypeSave" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:03 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/ExtTypeSave: Test Cases/phs-masterdb/ExtTypeSave
+
+2019-07-25 14:21:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/extTypeSave", ["endpoint":endpoint, "id":findTestData("phs-masterdb/extTypeSave").getValue(1, 1), "mime":findTestData("phs-masterdb/extTypeSave").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:21:05 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\1.har
+
+2019-07-25 14:21:05 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:05 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/extTypeUpdate" classname="Test Cases/phs-masterdb/extTypeUpdate" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:05 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/extTypeUpdate: Test Cases/phs-masterdb/extTypeUpdate
+
+2019-07-25 14:21:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/ExtTypeUpdate", ["endpoint":endpoint, "id":findTestData("phs-masterdb/extTypeUpdate").getValue(1, 1), "mime":findTestData("phs-masterdb/extTypeUpdate").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:21:06 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\2.har
+
+2019-07-25 14:21:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/findByAgentCode" classname="Test Cases/phs-masterdb/findByAgentCode" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:06 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/findByAgentCode: Test Cases/phs-masterdb/findByAgentCode
+
+2019-07-25 14:21:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/findByAgentCode", ["endpoint":endpoint, "agentCode":findTestData("phs-masterdb/findByAgentCode").getValue(1, 1)])): Send request successfully
+
+2019-07-25 14:21:06 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\3.har
+
+2019-07-25 14:21:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getall" classname="Test Cases/phs-masterdb/getall" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:06 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getall: Test Cases/phs-masterdb/getall
+
+2019-07-25 14:21:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getall", ["endpoint":endpoint])): Send request successfully
+
+2019-07-25 14:21:07 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\4.har
+
+2019-07-25 14:21:07 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getBydocid" classname="Test Cases/phs-masterdb/getBydocid" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:07 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getBydocid: Test Cases/phs-masterdb/getBydocid
+
+2019-07-25 14:21:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getBydocid", ["endpoint":endpoint, "docId":findTestData("phs-masterdb/getBydocid").getValue(1, 1)])): Send request successfully
+
+2019-07-25 14:21:08 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\5.har
+
+2019-07-25 14:21:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getByParam" classname="Test Cases/phs-masterdb/getByParam" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:08 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getByParam: Test Cases/phs-masterdb/getByParam
+
+2019-07-25 14:21:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/GetByParam", ["endpoint":endpoint, "id":findTestData("phs-masterdb/getByParam").getValue(1, 1), "param":findTestData("phs-masterdb/getByParam").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:21:08 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\6.har
+
+2019-07-25 14:21:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getByparamType" classname="Test Cases/phs-masterdb/getByparamType" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:08 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getByparamType: Test Cases/phs-masterdb/getByparamType
+
+2019-07-25 14:21:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getByparamType", ["endpoint":endpoint, "id":findTestData("phs-masterdb/getByparamType").getValue(1, 1), "param":findTestData("phs-masterdb/getByparamType").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:21:09 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\7.har
+
+2019-07-25 14:21:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/GetDocType" classname="Test Cases/phs-masterdb/GetDocType" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:09 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/GetDocType: Test Cases/phs-masterdb/GetDocType
+
+2019-07-25 14:21:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/GetBydoctype", ["endpoint":endpoint, "docType":findTestData("phs-masterdb/getBydoctype").getValue(1, 1), "param":findTestData("phs-masterdb/getBydoctype").getValue(2, 1)])): Send request successfully
+
+2019-07-25 14:21:10 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\8.har
+
+2019-07-25 14:21:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:10 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2019-07-25 14:21:10 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null
+
+2019-07-25 14:21:10 - [TEST_STEP][PASSED] - newResult = slurper.parseText(message): null
+
+2019-07-25 14:21:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getExtByvalue" classname="Test Cases/phs-masterdb/getExtByvalue" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:10 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getExtByvalue: Test Cases/phs-masterdb/getExtByvalue
+
+2019-07-25 14:21:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getExtByvalue", ["endpoint":endpoint, "value":findTestData("phs-masterdb/getExtByvalue").getValue(1, 1)])): Send request successfully
+
+2019-07-25 14:21:10 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\9.har
+
+2019-07-25 14:21:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/getType" classname="Test Cases/phs-masterdb/getType" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:10 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/getType: Test Cases/phs-masterdb/getType
+
+2019-07-25 14:21:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/getType", ["endpoint":endpoint, "type":findTestData("phs-masterdb/getType").getValue(1, 1)])): Send request successfully
+
+2019-07-25 14:21:11 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\10.har
+
+2019-07-25 14:21:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/phsParamSave" classname="Test Cases/phs-masterdb/phsParamSave" status="FAILED">
+         <failure type="FAILED" message="Test Cases/phs-masterdb/phsParamSave FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '415'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at phsParamSave.run(phsParamSave:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564039254290.run(TempTestSuite1564039254290.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-25 14:21:11 - [TEST_CASE][FAILED] - Test Cases/phs-masterdb/phsParamSave: Test Cases/phs-masterdb/phsParamSave FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '415'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at phsParamSave.run(phsParamSave:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564039254290.run(TempTestSuite1564039254290.groovy:35)
+
+
+2019-07-25 14:21:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/phsParamSave", ["endpoint":endpoint, "id":findTestData("phs-masterdb/phsParamSave").getValue(1, 1), "param":findTestData("phs-masterdb/phsParamSave").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:21:12 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\11.har
+
+2019-07-25 14:21:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:12 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, 200): verifyResponseStatusCode(response, 200) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '415'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at phsParamSave.run(phsParamSave:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564039254290.run(TempTestSuite1564039254290.groovy:35)
+
+
+2019-07-25 14:21:12 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '415'
+
+2019-07-25 14:21:12 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '415'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at phsParamSave.run(phsParamSave:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564039254290.run(TempTestSuite1564039254290.groovy:35)
+)
+
+2019-07-25 14:21:12 - [MESSAGE][FAILED] - verifyResponseStatusCode(response, 200) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '415'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at phsParamSave.run(phsParamSave:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564039254290.run(TempTestSuite1564039254290.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-25 14:21:11 - [TEST_CASE][FAILED] - Test Cases/phs-masterdb/phsParamSave: Test Cases/phs-masterdb/phsParamSave FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '415'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at phsParamSave.run(phsParamSave:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564039254290.run(TempTestSuite1564039254290.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-masterdb/update" classname="Test Cases/phs-masterdb/update" status="PASSED">
+         <system-out><![CDATA[2019-07-25 14:21:12 - [TEST_CASE][PASSED] - Test Cases/phs-masterdb/update: Test Cases/phs-masterdb/update
+
+2019-07-25 14:21:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-masterdb/update", ["endpoint":endpoint, "docType1":findTestData("phs-masterdb/update").getValue(1, 1), "id":findTestData("phs-masterdb/update").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-25 14:21:13 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-masterdb\master-db\20190725_142054\requests\main\12.har
+
+2019-07-25 14:21:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-25 14:21:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-25 14:21:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-25 14:20:57 - [TEST_SUITE][FAILED] - master-db: Test Cases/phs-masterdb/phsParamSave FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '415'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at phsParamSave.run(phsParamSave:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564039254290.run(TempTestSuite1564039254290.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-25 14:20:57 - [TEST_SUITE][FAILED] - master-db: Test Cases/phs-masterdb/phsParamSave FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '415'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at phsParamSave.run(phsParamSave:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564039254290.run(TempTestSuite1564039254290.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

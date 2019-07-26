@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+master-db,,,2019-07-25 14:17:04,2019-07-25 14:17:11,7.249s,PASSED
+,,,,,,
+Test Cases/phs-masterdb/getByparamType,,,2019-07-25 14:17:04,2019-07-25 14:17:11,6.570s,PASSED
+"response = sendRequest(findTestObject(""phs-masterdb/getByparamType"", [""endpoint"":endpoint, ""id"":findTestData(""phs-masterdb/getByparamType"").getValue(1, 1), ""param"":findTestData(""phs-masterdb/getByparamType"").getValue(2, 1), ... ]))",,,2019-07-25 14:17:05,2019-07-25 14:17:11,5.715s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-25 14:17:11,2019-07-25 14:17:11,0.028s,PASSED

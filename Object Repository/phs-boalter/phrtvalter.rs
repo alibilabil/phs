@@ -33,7 +33,7 @@
       <description></description>
       <id>02699a2a-6241-42c2-9311-255341647a54</id>
       <masked>false</masked>
-      <name>ednpoint</name>
+      <name>endpoint</name>
    </variables>
    <variables>
       <defaultValue>findTestData('phs-boalteration/phrtvalter').getValue(1, 1)</defaultValue>

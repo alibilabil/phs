@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>{endpoint}/phs-sarcalculator/rest/api/BOEnquirySar</restUrl>
+   <restUrl>${endpoint}/phs-sarcalculator/rest/api/BOEnquirySar</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
