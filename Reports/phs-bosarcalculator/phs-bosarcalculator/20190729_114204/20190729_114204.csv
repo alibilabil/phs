@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+phs-bosarcalculator,,,2019-07-29 11:42:07,2019-07-29 11:42:21,14.186s,FAILED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOAddCompSarCal,,To add component sar calculator,2019-07-29 11:42:08,2019-07-29 11:42:14,5.955s,PASSED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOAddCompSarCal"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOAddCompSarCal"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOAddCompSarCal"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:08,2019-07-29 11:42:14,5.173s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:14,2019-07-29 11:42:14,0.018s,PASSED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOAddPolSarCal,,Add riders to add new life to the policy,2019-07-29 11:42:14,2019-07-29 11:42:15,0.979s,FAILED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOAddPolSarCal"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOAddPolSarCal"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOAddPolSarCal"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:14,2019-07-29 11:42:15,0.544s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:15,2019-07-29 11:42:15,0.033s,FAILED
+,,,,,,
+Test Cases/phs-bosarcalculator/BODelSarCal,,To delete or clear sar calculator,2019-07-29 11:42:15,2019-07-29 11:42:15,0.604s,FAILED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BODelSarCal"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BODelSarCal"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BODelSarCal"").getValue(2, 1)]))",,,2019-07-29 11:42:15,2019-07-29 11:42:15,0.180s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:15,2019-07-29 11:42:15,0.010s,FAILED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOEnquirySar,,To retrieve SAR Calculator level component,2019-07-29 11:42:15,2019-07-29 11:42:16,0.800s,PASSED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOEnquirySar"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOEnquirySar"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOEnquirySar"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:16,2019-07-29 11:42:16,0.430s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:16,2019-07-29 11:42:16,0.005s,PASSED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOExcludeComSarCal,,,2019-07-29 11:42:16,2019-07-29 11:42:17,0.900s,PASSED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOExcludeComSarCal"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOExcludeComSarCal"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOExcludeComSarCal"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:16,2019-07-29 11:42:17,0.517s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:17,2019-07-29 11:42:17,0.005s,PASSED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOExcludePolSarCal,,To exclude policy on SAR Calculator,2019-07-29 11:42:17,2019-07-29 11:42:18,0.748s,PASSED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOExcludePolSarCal"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOExcludePolSarCal"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOExcludePolSarCal"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:17,2019-07-29 11:42:18,0.341s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:18,2019-07-29 11:42:18,0.006s,PASSED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOLevelComponent,,To retrieve SAR Calculator level component,2019-07-29 11:42:18,2019-07-29 11:42:18,0.680s,FAILED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOLevelComponent"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOLevelComponent"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOLevelComponent"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:18,2019-07-29 11:42:18,0.213s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:18,2019-07-29 11:42:18,0.010s,FAILED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOLevelRisk,,To retrieve SAR Calculator on level risk,2019-07-29 11:42:18,2019-07-29 11:42:19,0.745s,PASSED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOLevelRisk"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOLevelRisk"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOLevelRisk"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:19,2019-07-29 11:42:19,0.363s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:19,2019-07-29 11:42:19,0.006s,PASSED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOModCompSarCal,,To modify component on SAR Calculator,2019-07-29 11:42:19,2019-07-29 11:42:20,1.273s,PASSED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOModCompSarCal"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOModCompSarCal"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOModCompSarCal"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:20,2019-07-29 11:42:20,0.801s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:20,2019-07-29 11:42:20,0.004s,PASSED
+,,,,,,
+Test Cases/phs-bosarcalculator/BOPheqclag,,To retrieve client in agent detail on SAR Calculator,2019-07-29 11:42:20,2019-07-29 11:42:21,0.785s,FAILED
+"response = sendRequest(findTestObject(""phs-bosarcalculator/BOPheqclag"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-bosarcalculator/BOPheqclag"").getValue(1, 1), ""clntnum"":findTestData(""phs-bosarcalculator/BOPheqclag"").getValue(2, 1), ... ]))",,,2019-07-29 11:42:21,2019-07-29 11:42:21,0.358s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 11:42:21,2019-07-29 11:42:21,0.023s,FAILED

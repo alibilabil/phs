@@ -18,5 +18,4 @@ ResponseObject response =WS.sendRequest(findTestObject('phs-bosarcalculator/BOPh
                 'phs-bosarcalculator/BOPheqclag').getValue(1, 1), ('clntnum') : findTestData('phs-bosarcalculator/BOPheqclag').getValue(
                 2, 1), ('currcd') : findTestData('phs-bosarcalculator/BOPheqclag').getValue(3, 1), ('chdrnum') : findTestData(
                 'phs-bosarcalculator/BOPheqclag').getValue(4, 1)]))
-
 WS.verifyResponseStatusCode(response, 200)

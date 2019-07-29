@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+phs-boalter,,,2019-07-29 13:36:45,2019-07-29 13:37:13,28.428s,FAILED
+,,,,,,
+Test Cases/phs-boalter/phrtvalter,,,2019-07-29 13:36:45,2019-07-29 13:36:51,5.430s,PASSED
+"response = sendRequest(findTestObject(""phs-boalter/phrtvalter"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-boalteration/phrtvalter"").getValue(1, 1), ""chdrnum"":findTestData(""phs-boalteration/phrtvalter"").getValue(2, 1)]))",,,2019-07-29 13:36:46,2019-07-29 13:36:51,4.743s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 13:36:51,2019-07-29 13:36:51,0.019s,PASSED
+,,,,,,
+Test Cases/phs-boalter/phrtvaltfu,,To retrieve follow up code based on no policy and alteration number,2019-07-29 13:36:51,2019-07-29 13:36:52,0.898s,FAILED
+"response = sendRequest(findTestObject(""phs-boalter/phrtvaltfu"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-boalteration/phrtvaltfu"").getValue(1, 1), ""chdrnum"":findTestData(""phs-boalteration/phrtvaltfu"").getValue(2, 1), ... ]))",,,2019-07-29 13:36:51,2019-07-29 13:36:52,0.480s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 13:36:52,2019-07-29 13:36:52,0.037s,FAILED
+,,,,,,
+Test Cases/phs-boalter/phupdaltfl,,To add or update or delete alteration and follow up,2019-07-29 13:36:52,2019-07-29 13:37:13,21.512s,FAILED
+"response = sendRequest(findTestObject(""phs-boalter/phupdaltfl"", [""endpoint"":endpoints]))",,,2019-07-29 13:36:52,2019-07-29 13:37:13,21.052s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-29 13:37:13,2019-07-29 13:37:13,0.015s,FAILED

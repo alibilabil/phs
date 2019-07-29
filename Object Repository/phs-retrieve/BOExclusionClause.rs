@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;CHDRNUM\&quot;: \&quot;${CHDRNUM}\&quot;,\n  \&quot;ZALTNUM\&quot;: \&quot;${ZALTNUM}\&quot;,\n  \&quot;FUPNO\&quot;: \&quot;${FUPNO}\&quot;,\n  \&quot;OBJID\&quot;: \&quot;${OBJID}\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;chdrnum\&quot;: \&quot;12118866\&quot;,\n  \&quot;zaltnum\&quot;: \&quot;A0000014\&quot;,\n  \&quot;fupno\&quot;: \&quot;00061\&quot;,\n  \&quot;objid\&quot;: \&quot;PHRTVEXCLS\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${endpoint}/phs-retrieve/rest/api/BOExclusionClause</restUrl>
+   <restUrl>http://10.170.49.229/phs-retrieve/rest/api/BOExclusionClause</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,35 +33,35 @@
       <description></description>
       <id>388059d8-988b-4f96-87cc-ece9d7fe38b7</id>
       <masked>false</masked>
-      <name>endpoint</name>
+      <name>test</name>
    </variables>
    <variables>
       <defaultValue>findTestData('BOExclusionClause').getValue(1, 1)</defaultValue>
       <description></description>
       <id>2ca025cf-441b-40ed-89f0-5110a72b60d3</id>
       <masked>false</masked>
-      <name>CHDRNUM</name>
+      <name>chdrnum</name>
    </variables>
    <variables>
       <defaultValue>findTestData('BOExclusionClause').getValue(2, 1)</defaultValue>
       <description></description>
       <id>b5c3bd97-ee9c-4968-af9c-f20099d27043</id>
       <masked>false</masked>
-      <name>ZALTNUM</name>
+      <name>zaltnum</name>
    </variables>
    <variables>
       <defaultValue>findTestData('BOExclusionClause').getValue(3, 1)</defaultValue>
       <description></description>
       <id>5591bfbd-fc75-4305-8b50-86bd173df010</id>
       <masked>false</masked>
-      <name>FUPNO</name>
+      <name>fupno</name>
    </variables>
    <variables>
       <defaultValue>findTestData('BOExclusionClause').getValue(4, 1)</defaultValue>
       <description></description>
       <id>c46015e2-b4b0-45c7-8371-a7634fd87653</id>
       <masked>false</masked>
-      <name>OBJID</name>
+      <name>objid</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

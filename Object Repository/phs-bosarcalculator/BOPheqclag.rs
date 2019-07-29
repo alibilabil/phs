@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;currcd\&quot;: \&quot;${currcd}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum)\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;currcy\&quot;: \&quot;${currcy}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum)\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -54,7 +54,7 @@
       <description></description>
       <id>884c27e0-140b-443f-9426-965ef5fa2066</id>
       <masked>false</masked>
-      <name>currcd</name>
+      <name>currcy</name>
    </variables>
    <variables>
       <defaultValue>findTestData('phs-bosarcalculator/BOPheqclag').getValue(4, 1)</defaultValue>

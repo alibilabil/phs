@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="phs-retrieve" time="12" tests="3" failures="0" errors="12">
+   <testsuite name="phs-retrieve" tests="3" failures="0" errors="12" time="12" timestamp="2019-07-29 13:51:47" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/phs-retrieve/phs-retrieve">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-retrieve\\phs-retrieve\\20190729_135144"/>
+         <property name="logFiles" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-retrieve\\phs-retrieve\\20190729_135144\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+         <property name="hostAddress" value="10.170.236.50"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/phs-retrieve/BOExclusionClause" classname="Test Cases/phs-retrieve/BOExclusionClause" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/BOExclusionClause FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BOExclusionClause.run(BOExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:48 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BOExclusionClause: Test Cases/phs-retrieve/BOExclusionClause FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BOExclusionClause.run(BOExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:49 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BOExclusionClause", ["endpoint":endpoint, "CHDRNUM":findTestData("BOExclusionClause").getValue(1, 1), "ZALTNUM":findTestData("BOExclusionClause").getValue(2, 1), ... ])): response = sendRequest(findTestObject("phs-retrieve/BOExclusionClause", ["endpoint":endpoint, "CHDRNUM":findTestData("BOExclusionClause").getValue(1, 1), "ZALTNUM":findTestData("BOExclusionClause").getValue(2, 1), ... ])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BOExclusionClause.run(BOExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:49 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BOExclusionClause", ["endpoint":endpoint, "CHDRNUM":findTestData("BOExclusionClause").getValue(1, 1), "ZALTNUM":findTestData("BOExclusionClause").getValue(2, 1), ... ])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BOExclusionClause.run(BOExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:48 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BOExclusionClause: Test Cases/phs-retrieve/BOExclusionClause FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BOExclusionClause.run(BOExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/BORetriveAddExclusion" classname="Test Cases/phs-retrieve/BORetriveAddExclusion" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/BORetriveAddExclusion FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveAddExclusion' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveAddExclusion' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveAddExclusion.run(BORetriveAddExclusion:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:49 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveAddExclusion: Test Cases/phs-retrieve/BORetriveAddExclusion FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveAddExclusion' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveAddExclusion' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveAddExclusion.run(BORetriveAddExclusion:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:49 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveAddExclusion", ["endpoint":endpoint, "chdrnum":findTestData("BORetriveAddExclusion").getValue(1, 1), "zaltnum":findTestData("BORetriveAddExclusion").getValue(2, 1), ... ])): response = sendRequest(findTestObject("phs-retrieve/BORetriveAddExclusion", ["endpoint":endpoint, "chdrnum":findTestData("BORetriveAddExclusion").getValue(1, 1), "zaltnum":findTestData("BORetriveAddExclusion").getValue(2, 1), ... ])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveAddExclusion' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveAddExclusion' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveAddExclusion.run(BORetriveAddExclusion:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:49 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveAddExclusion", ["endpoint":endpoint, "chdrnum":findTestData("BORetriveAddExclusion").getValue(1, 1), "zaltnum":findTestData("BORetriveAddExclusion").getValue(2, 1), ... ])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveAddExclusion' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveAddExclusion' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveAddExclusion.run(BORetriveAddExclusion:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:49 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveAddExclusion: Test Cases/phs-retrieve/BORetriveAddExclusion FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveAddExclusion' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveAddExclusion' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveAddExclusion.run(BORetriveAddExclusion:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/BORetriveClient" classname="Test Cases/phs-retrieve/BORetriveClient" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/BORetriveClient FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveClient' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveClient' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveClient.run(BORetriveClient:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:49 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveClient: Test Cases/phs-retrieve/BORetriveClient FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveClient' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveClient' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveClient.run(BORetriveClient:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:50 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveClient", ["endpoint":endpoint, "objid":findTestData("BORetriveClient").getValue(1, 1), "chdrnum":findTestData("BORetriveClient").getValue(2, 1)])): response = sendRequest(findTestObject("phs-retrieve/BORetriveClient", ["endpoint":endpoint, "objid":findTestData("BORetriveClient").getValue(1, 1), "chdrnum":findTestData("BORetriveClient").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveClient' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveClient' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveClient.run(BORetriveClient:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:50 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveClient", ["endpoint":endpoint, "objid":findTestData("BORetriveClient").getValue(1, 1), "chdrnum":findTestData("BORetriveClient").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveClient' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveClient' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveClient.run(BORetriveClient:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:49 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveClient: Test Cases/phs-retrieve/BORetriveClient FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveClient' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveClient' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveClient.run(BORetriveClient:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/BORetriveComponent" classname="Test Cases/phs-retrieve/BORetriveComponent" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/BORetriveComponent FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveComponent' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveComponent' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveComponent.run(BORetriveComponent:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:50 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveComponent: Test Cases/phs-retrieve/BORetriveComponent FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveComponent' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveComponent' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveComponent.run(BORetriveComponent:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:50 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveComponent", ["endpoint":endpoint, "objid":findTestData("BORetriveComponent").getValue(1, 1), "chdrnum":findTestData("BORetriveComponent").getValue(2, 1)])): response = sendRequest(findTestObject("phs-retrieve/BORetriveComponent", ["endpoint":endpoint, "objid":findTestData("BORetriveComponent").getValue(1, 1), "chdrnum":findTestData("BORetriveComponent").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveComponent' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveComponent' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveComponent.run(BORetriveComponent:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:50 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveComponent", ["endpoint":endpoint, "objid":findTestData("BORetriveComponent").getValue(1, 1), "chdrnum":findTestData("BORetriveComponent").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveComponent' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveComponent' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveComponent.run(BORetriveComponent:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:50 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveComponent: Test Cases/phs-retrieve/BORetriveComponent FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveComponent' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveComponent' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveComponent.run(BORetriveComponent:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/BORetriveDeleteExclusionClause" classname="Test Cases/phs-retrieve/BORetriveDeleteExclusionClause" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/BORetriveDeleteExclusionClause FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveDeleteExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveDeleteExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveDeleteExclusionClause.run(BORetriveDeleteExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:50 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveDeleteExclusionClause: Test Cases/phs-retrieve/BORetriveDeleteExclusionClause FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveDeleteExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveDeleteExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveDeleteExclusionClause.run(BORetriveDeleteExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:51 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveDeleteExclusionClause", ["endpoint":endpoint, "chdrnum":findTestData("BORetriveDeleteExclusionClause").getValue(1, 1), "fupcde":findTestData("BORetriveDeleteExclusionClause").getValue(2, 1), ... ])): response = sendRequest(findTestObject("phs-retrieve/BORetriveDeleteExclusionClause", ["endpoint":endpoint, "chdrnum":findTestData("BORetriveDeleteExclusionClause").getValue(1, 1), "fupcde":findTestData("BORetriveDeleteExclusionClause").getValue(2, 1), ... ])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveDeleteExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveDeleteExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveDeleteExclusionClause.run(BORetriveDeleteExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:51 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveDeleteExclusionClause", ["endpoint":endpoint, "chdrnum":findTestData("BORetriveDeleteExclusionClause").getValue(1, 1), "fupcde":findTestData("BORetriveDeleteExclusionClause").getValue(2, 1), ... ])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveDeleteExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveDeleteExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveDeleteExclusionClause.run(BORetriveDeleteExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:50 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveDeleteExclusionClause: Test Cases/phs-retrieve/BORetriveDeleteExclusionClause FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveDeleteExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveDeleteExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveDeleteExclusionClause.run(BORetriveDeleteExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/BORetriveFlag" classname="Test Cases/phs-retrieve/BORetriveFlag" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/BORetriveFlag FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetrieveFlag' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetrieveFlag' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveFlag.run(BORetriveFlag:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:51 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveFlag: Test Cases/phs-retrieve/BORetriveFlag FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetrieveFlag' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetrieveFlag' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveFlag.run(BORetriveFlag:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:51 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveFlag", ["endpoint":endpoint, "objid":findTestData("BORetrieveFlag").getValue(1, 1), "chdrnum":findTestData("BORetrieveFlag").getValue(2, 1)])): response = sendRequest(findTestObject("phs-retrieve/BORetriveFlag", ["endpoint":endpoint, "objid":findTestData("BORetrieveFlag").getValue(1, 1), "chdrnum":findTestData("BORetrieveFlag").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetrieveFlag' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetrieveFlag' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveFlag.run(BORetriveFlag:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:51 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/BORetriveFlag", ["endpoint":endpoint, "objid":findTestData("BORetrieveFlag").getValue(1, 1), "chdrnum":findTestData("BORetrieveFlag").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetrieveFlag' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetrieveFlag' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveFlag.run(BORetriveFlag:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:51 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/BORetriveFlag: Test Cases/phs-retrieve/BORetriveFlag FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetrieveFlag' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetrieveFlag' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BORetriveFlag.run(BORetriveFlag:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/clntrole" classname="Test Cases/phs-retrieve/clntrole" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/clntrole FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/clntrole' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/clntrole' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at clntrole.run(clntrole:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:51 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/clntrole: Test Cases/phs-retrieve/clntrole FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/clntrole' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/clntrole' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at clntrole.run(clntrole:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:52 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/clntrole", ["endpoint":endpoint, "clntnum":findTestData("clntrole").getValue(1, 1), "OBJID":findTestData("clntrole").getValue(2, 1)])): response = sendRequest(findTestObject("phs-retrieve/clntrole", ["endpoint":endpoint, "clntnum":findTestData("clntrole").getValue(1, 1), "OBJID":findTestData("clntrole").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/clntrole' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/clntrole' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at clntrole.run(clntrole:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:52 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/clntrole", ["endpoint":endpoint, "clntnum":findTestData("clntrole").getValue(1, 1), "OBJID":findTestData("clntrole").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/clntrole' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/clntrole' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at clntrole.run(clntrole:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:51 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/clntrole: Test Cases/phs-retrieve/clntrole FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/clntrole' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/clntrole' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at clntrole.run(clntrole:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/getpolenq" classname="Test Cases/phs-retrieve/getpolenq" status="PASSED">
+         <system-out><![CDATA[2019-07-29 13:51:52 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/getpolenq: Test Cases/phs-retrieve/getpolenq
+
+2019-07-29 13:51:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/getpolenq", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/getpolenq").getValue(1, 1), "zchdrsel":findTestData("phs-retrieve/getpolenq").getValue(2, 1), ... ])): Send request successfully
+
+2019-07-29 13:51:56 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_135144\requests\main\0.har
+
+2019-07-29 13:51:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-29 13:51:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-29 13:51:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/phcldetl" classname="Test Cases/phs-retrieve/phcldetl" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/phcldetl FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcldetl' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcldetl' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcldetl.run(phcldetl:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:56 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phcldetl: Test Cases/phs-retrieve/phcldetl FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcldetl' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcldetl' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcldetl.run(phcldetl:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:57 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/phcldetl", ["endpoint":endpoint, "objid":findTestData("phcldetl").getValue(1, 1), "chdrnum":findTestData("phcldetl").getValue(2, 1)])): response = sendRequest(findTestObject("phs-retrieve/phcldetl", ["endpoint":endpoint, "objid":findTestData("phcldetl").getValue(1, 1), "chdrnum":findTestData("phcldetl").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcldetl' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcldetl' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcldetl.run(phcldetl:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:57 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/phcldetl", ["endpoint":endpoint, "objid":findTestData("phcldetl").getValue(1, 1), "chdrnum":findTestData("phcldetl").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcldetl' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcldetl' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcldetl.run(phcldetl:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:56 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phcldetl: Test Cases/phs-retrieve/phcldetl FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcldetl' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcldetl' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcldetl.run(phcldetl:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/phcpolrtv" classname="Test Cases/phs-retrieve/phcpolrtv" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/phcpolrtv FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcpolrtv' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcpolrtv' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcpolrtv.run(phcpolrtv:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:57 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phcpolrtv: Test Cases/phs-retrieve/phcpolrtv FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcpolrtv' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcpolrtv' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcpolrtv.run(phcpolrtv:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:57 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/phcpolrtv", ["endpoint":endpoint, "objid":findTestData("phcpolrtv").getValue(1, 1), "clntnum":findTestData("phcpolrtv").getValue(2, 1), ... ])): response = sendRequest(findTestObject("phs-retrieve/phcpolrtv", ["endpoint":endpoint, "objid":findTestData("phcpolrtv").getValue(1, 1), "clntnum":findTestData("phcpolrtv").getValue(2, 1), ... ])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcpolrtv' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcpolrtv' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcpolrtv.run(phcpolrtv:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:57 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/phcpolrtv", ["endpoint":endpoint, "objid":findTestData("phcpolrtv").getValue(1, 1), "clntnum":findTestData("phcpolrtv").getValue(2, 1), ... ])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcpolrtv' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcpolrtv' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcpolrtv.run(phcpolrtv:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:57 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phcpolrtv: Test Cases/phs-retrieve/phcpolrtv FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcpolrtv' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcpolrtv' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phcpolrtv.run(phcpolrtv:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/phrtvbilst" classname="Test Cases/phs-retrieve/phrtvbilst" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/phrtvbilst FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvbilst.run(phrtvbilst:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:57 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phrtvbilst: Test Cases/phs-retrieve/phrtvbilst FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvbilst.run(phrtvbilst:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:58 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/phrtvbilst", ["endpoint":endpoint, "objid":findTestData("phrtvbilst").getValue(1, 1), "chdrsel":findTestData("phrtvbilst").getValue(2, 1)])): response = sendRequest(findTestObject("phs-retrieve/phrtvbilst", ["endpoint":endpoint, "objid":findTestData("phrtvbilst").getValue(1, 1), "chdrsel":findTestData("phrtvbilst").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvbilst.run(phrtvbilst:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:58 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/phrtvbilst", ["endpoint":endpoint, "objid":findTestData("phrtvbilst").getValue(1, 1), "chdrsel":findTestData("phrtvbilst").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvbilst.run(phrtvbilst:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:57 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phrtvbilst: Test Cases/phs-retrieve/phrtvbilst FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvbilst.run(phrtvbilst:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/phrtvcomcl" classname="Test Cases/phs-retrieve/phrtvcomcl" status="PASSED">
+         <system-out><![CDATA[2019-07-29 13:51:58 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/phrtvcomcl: Test Cases/phs-retrieve/phrtvcomcl
+
+2019-07-29 13:51:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phrtvcomcl", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/phrtvcomcl").getValue(1, 1), "clntnum":findTestData("phs-retrieve/phrtvcomcl").getValue(2, 1)])): Send request successfully
+
+2019-07-29 13:51:58 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_135144\requests\main\1.har
+
+2019-07-29 13:51:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-29 13:51:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-29 13:51:58 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/phrtvmed6" classname="Test Cases/phs-retrieve/phrtvmed6" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/phrtvmed6 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvmed6' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvmed6' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvmed6.run(phrtvmed6:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:58 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phrtvmed6: Test Cases/phs-retrieve/phrtvmed6 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvmed6' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvmed6' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvmed6.run(phrtvmed6:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:59 - [TEST_STEP][ERROR] - response = sendRequest(findTestObject("phs-retrieve/phrtvmed6", ["endpoint":endpoint, "objid":findTestData("phrtvmed6").getValue(1, 1), "clntnum":findTestData("phrtvmed6").getValue(2, 1)])): response = sendRequest(findTestObject("phs-retrieve/phrtvmed6", ["endpoint":endpoint, "objid":findTestData("phrtvmed6").getValue(1, 1), "clntnum":findTestData("phrtvmed6").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvmed6' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvmed6' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvmed6.run(phrtvmed6:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+
+
+2019-07-29 13:51:59 - [MESSAGE][ERROR] - response = sendRequest(findTestObject("phs-retrieve/phrtvmed6", ["endpoint":endpoint, "objid":findTestData("phrtvmed6").getValue(1, 1), "clntnum":findTestData("phrtvmed6").getValue(2, 1)])) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvmed6' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvmed6' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvmed6.run(phrtvmed6:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:58 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phrtvmed6: Test Cases/phs-retrieve/phrtvmed6 FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvmed6' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvmed6' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at phrtvmed6.run(phrtvmed6:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/phrtvsubst" classname="Test Cases/phs-retrieve/phrtvsubst" status="ERROR">
+         <error type="ERROR" message="Test Cases/phs-retrieve/phrtvsubst FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/SURYAPURBA/PHS/PHS/Scripts/phs-retrieve/phrtvsubst/Script1563356774037.groovy: 16: unable to resolve class ResponseObject 
+ @ line 16, column 16.
+   ResponseObject response = WS.sendRequest(findTestObject('phs-retrieve/phrtvsubst', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
+                  ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)
+"/>
+         <system-out><![CDATA[2019-07-29 13:51:59 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phrtvsubst: Test Cases/phs-retrieve/phrtvsubst FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/SURYAPURBA/PHS/PHS/Scripts/phs-retrieve/phrtvsubst/Script1563356774037.groovy: 16: unable to resolve class ResponseObject 
+ @ line 16, column 16.
+   ResponseObject response = WS.sendRequest(findTestObject('phs-retrieve/phrtvsubst', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
+                  ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-07-29 13:51:59 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phrtvsubst: Test Cases/phs-retrieve/phrtvsubst FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/SURYAPURBA/PHS/PHS/Scripts/phs-retrieve/phrtvsubst/Script1563356774037.groovy: 16: unable to resolve class ResponseObject 
+ @ line 16, column 16.
+   ResponseObject response = WS.sendRequest(findTestObject('phs-retrieve/phrtvsubst', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
+                  ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/phs-retrieve/phrtvt5661" classname="Test Cases/phs-retrieve/phrtvt5661" status="PASSED">
+         <system-out><![CDATA[2019-07-29 13:51:59 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/phrtvt5661: Test Cases/phs-retrieve/phrtvt5661
+
+2019-07-29 13:52:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phrtvt5661", ["endpoint":endpoint, "FUPCDE":findTestData("phs-retrieve/phrtvt5661").getValue(1, 1), "OBJID":findTestData("phs-retrieve/phrtvt5661").getValue(2, 1)])): Send request successfully
+
+2019-07-29 13:52:00 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_135144\requests\main\2.har
+
+2019-07-29 13:52:00 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-29 13:52:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-29 13:52:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-29 13:51:47 - [TEST_SUITE][ERROR] - phs-retrieve: Test Cases/phs-retrieve/BOExclusionClause FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BOExclusionClause.run(BOExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-07-29 13:51:47 - [TEST_SUITE][ERROR] - phs-retrieve: Test Cases/phs-retrieve/BOExclusionClause FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at BOExclusionClause.run(BOExclusionClause:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

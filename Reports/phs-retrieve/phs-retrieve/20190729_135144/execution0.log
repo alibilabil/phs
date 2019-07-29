@@ -1,0 +1,3162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-29T13:51:47</date>
+  <millis>1564383107846</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/phs-retrieve/phs-retrieve</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">phs-retrieve</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/phs-retrieve/phs-retrieve</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:47</date>
+  <millis>1564383107869</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = c19679 - LIDLIFE38B0WS.PRU.intranet.asia</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">c19679 - LIDLIFE38B0WS.PRU.intranet.asia</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:47</date>
+  <millis>1564383107870</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:47</date>
+  <millis>1564383107873</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.170.236.50</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.170.236.50</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:47</date>
+  <millis>1564383107874</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.0.1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:48</date>
+  <millis>1564383108305</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/BOExclusionClause</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/BOExclusionClause</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-retrieve/BOExclusionClause</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\BOExclusionClause.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109006</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BOExclusionClause\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;CHDRNUM\&amp;quot;:findTestData(\&amp;quot;BOExclusionClause\&amp;quot;).getValue(1, 1), \&amp;quot;ZALTNUM\&amp;quot;:findTestData(\&amp;quot;BOExclusionClause\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109370</millis>
+  <sequence>11</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BOExclusionClause\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;CHDRNUM\&amp;quot;:findTestData(\&amp;quot;BOExclusionClause\&amp;quot;).getValue(1, 1), \&amp;quot;ZALTNUM\&amp;quot;:findTestData(\&amp;quot;BOExclusionClause\&amp;quot;).getValue(2, 1), ... ])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BOExclusionClause&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BOExclusionClause&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BOExclusionClause.run(BOExclusionClause:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BOExclusionClause</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109374</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BOExclusionClause\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;CHDRNUM\&amp;quot;:findTestData(\&amp;quot;BOExclusionClause\&amp;quot;).getValue(1, 1), \&amp;quot;ZALTNUM\&amp;quot;:findTestData(\&amp;quot;BOExclusionClause\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109376</millis>
+  <sequence>14</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/BOExclusionClause FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BOExclusionClause&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BOExclusionClause&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BOExclusionClause.run(BOExclusionClause:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BOExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BOExclusionClause' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BOExclusionClause</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109381</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/BOExclusionClause</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109439</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/BORetriveAddExclusion</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/BORetriveAddExclusion</property>
+  <property name="description">To add exclusion clause</property>
+  <property name="id">Test Cases/phs-retrieve/BORetriveAddExclusion</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\BORetriveAddExclusion.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109810</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveAddExclusion\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveAddExclusion\&amp;quot;).getValue(1, 1), \&amp;quot;zaltnum\&amp;quot;:findTestData(\&amp;quot;BORetriveAddExclusion\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109813</millis>
+  <sequence>22</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveAddExclusion\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveAddExclusion\&amp;quot;).getValue(1, 1), \&amp;quot;zaltnum\&amp;quot;:findTestData(\&amp;quot;BORetriveAddExclusion\&amp;quot;).getValue(2, 1), ... ])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetriveAddExclusion&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetriveAddExclusion&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveAddExclusion.run(BORetriveAddExclusion:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveAddExclusion' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveAddExclusion' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveAddExclusion</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109815</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveAddExclusion\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveAddExclusion\&amp;quot;).getValue(1, 1), \&amp;quot;zaltnum\&amp;quot;:findTestData(\&amp;quot;BORetriveAddExclusion\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109816</millis>
+  <sequence>25</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/BORetriveAddExclusion FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetriveAddExclusion&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetriveAddExclusion&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveAddExclusion.run(BORetriveAddExclusion:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveAddExclusion' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveAddExclusion' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveAddExclusion</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109823</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/BORetriveAddExclusion</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:49</date>
+  <millis>1564383109862</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/BORetriveClient</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/BORetriveClient</property>
+  <property name="description">/phs-retrieve/rest/api/BORetriveClient</property>
+  <property name="id">Test Cases/phs-retrieve/BORetriveClient</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\BORetriveClient.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110252</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveClient\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetriveClient\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveClient\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110255</millis>
+  <sequence>33</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveClient\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetriveClient\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveClient\&amp;quot;).getValue(2, 1)])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetriveClient&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetriveClient&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveClient.run(BORetriveClient:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveClient' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveClient' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveClient</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110258</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveClient\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetriveClient\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveClient\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110259</millis>
+  <sequence>36</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/BORetriveClient FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetriveClient&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetriveClient&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveClient.run(BORetriveClient:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveClient' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveClient' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveClient</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110261</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/BORetriveClient</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110285</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/BORetriveComponent</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/BORetriveComponent</property>
+  <property name="description">/phs-retrieve/rest/api/BORetriveComponent</property>
+  <property name="id">Test Cases/phs-retrieve/BORetriveComponent</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\BORetriveComponent.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110749</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveComponent\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetriveComponent\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveComponent\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110753</millis>
+  <sequence>44</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveComponent\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetriveComponent\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveComponent\&amp;quot;).getValue(2, 1)])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetriveComponent&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetriveComponent&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveComponent.run(BORetriveComponent:16)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveComponent' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveComponent' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveComponent</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110756</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveComponent\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetriveComponent\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveComponent\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110757</millis>
+  <sequence>47</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/BORetriveComponent FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetriveComponent&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetriveComponent&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveComponent.run(BORetriveComponent:16)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveComponent' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveComponent' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveComponent</class>
+      <method>run</method>
+      <line>16</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110759</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/BORetriveComponent</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:50</date>
+  <millis>1564383110780</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/BORetriveDeleteExclusionClause</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/BORetriveDeleteExclusionClause</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-retrieve/BORetriveDeleteExclusionClause</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\BORetriveDeleteExclusionClause.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111245</millis>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveDeleteExclusionClause\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveDeleteExclusionClause\&amp;quot;).getValue(1, 1), \&amp;quot;fupcde\&amp;quot;:findTestData(\&amp;quot;BORetriveDeleteExclusionClause\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111247</millis>
+  <sequence>55</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveDeleteExclusionClause\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveDeleteExclusionClause\&amp;quot;).getValue(1, 1), \&amp;quot;fupcde\&amp;quot;:findTestData(\&amp;quot;BORetriveDeleteExclusionClause\&amp;quot;).getValue(2, 1), ... ])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetriveDeleteExclusionClause&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetriveDeleteExclusionClause&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveDeleteExclusionClause.run(BORetriveDeleteExclusionClause:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveDeleteExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveDeleteExclusionClause' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveDeleteExclusionClause</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111249</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveDeleteExclusionClause\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetriveDeleteExclusionClause\&amp;quot;).getValue(1, 1), \&amp;quot;fupcde\&amp;quot;:findTestData(\&amp;quot;BORetriveDeleteExclusionClause\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111250</millis>
+  <sequence>58</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/BORetriveDeleteExclusionClause FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetriveDeleteExclusionClause&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetriveDeleteExclusionClause&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveDeleteExclusionClause.run(BORetriveDeleteExclusionClause:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetriveDeleteExclusionClause' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetriveDeleteExclusionClause' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveDeleteExclusionClause</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111251</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/BORetriveDeleteExclusionClause</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111272</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/BORetriveFlag</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/BORetriveFlag</property>
+  <property name="description">To retrieve vip &amp; blacklist flag untuk client dan agent under police tertentu</property>
+  <property name="id">Test Cases/phs-retrieve/BORetriveFlag</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\BORetriveFlag.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111632</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveFlag\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetrieveFlag\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetrieveFlag\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111635</millis>
+  <sequence>66</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveFlag\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetrieveFlag\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetrieveFlag\&amp;quot;).getValue(2, 1)])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetrieveFlag&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetrieveFlag&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveFlag.run(BORetriveFlag:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetrieveFlag' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetrieveFlag' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveFlag</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111637</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/BORetriveFlag\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;BORetrieveFlag\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;BORetrieveFlag\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111649</millis>
+  <sequence>69</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/BORetriveFlag FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/BORetrieveFlag&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/BORetrieveFlag&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat BORetriveFlag.run(BORetriveFlag:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/BORetrieveFlag' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/BORetrieveFlag' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>BORetriveFlag</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111651</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/BORetriveFlag</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:51</date>
+  <millis>1564383111670</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/clntrole</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/clntrole</property>
+  <property name="description">To retrieve policy and client role based on client number</property>
+  <property name="id">Test Cases/phs-retrieve/clntrole</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\clntrole.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:52</date>
+  <millis>1564383112040</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/clntrole\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;clntrole\&amp;quot;).getValue(1, 1), \&amp;quot;OBJID\&amp;quot;:findTestData(\&amp;quot;clntrole\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:52</date>
+  <millis>1564383112042</millis>
+  <sequence>77</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/clntrole\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;clntrole\&amp;quot;).getValue(1, 1), \&amp;quot;OBJID\&amp;quot;:findTestData(\&amp;quot;clntrole\&amp;quot;).getValue(2, 1)])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/clntrole&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/clntrole&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat clntrole.run(clntrole:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/clntrole' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/clntrole' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>clntrole</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:52</date>
+  <millis>1564383112043</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/clntrole\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;clntrole\&amp;quot;).getValue(1, 1), \&amp;quot;OBJID\&amp;quot;:findTestData(\&amp;quot;clntrole\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:52</date>
+  <millis>1564383112044</millis>
+  <sequence>80</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/clntrole FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/clntrole&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/clntrole&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat clntrole.run(clntrole:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/clntrole' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/clntrole' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>clntrole</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:52</date>
+  <millis>1564383112045</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/clntrole</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:52</date>
+  <millis>1564383112061</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/getpolenq</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/getpolenq</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-retrieve/getpolenq</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\getpolenq.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:52</date>
+  <millis>1564383112419</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/getpolenq\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/getpolenq\&amp;quot;).getValue(1, 1), \&amp;quot;zchdrsel\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/getpolenq\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116572</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-retrieve\\phs-retrieve\\20190729_135144\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a8e9576c-22b9-4ef8-9bbb-2c62b163c336</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116719</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116720</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/getpolenq\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/getpolenq\&amp;quot;).getValue(1, 1), \&amp;quot;zchdrsel\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/getpolenq\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116720</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116738</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116738</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116739</millis>
+  <sequence>107</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/getpolenq</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116739</millis>
+  <sequence>108</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/getpolenq</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:56</date>
+  <millis>1564383116761</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/phcldetl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/phcldetl</property>
+  <property name="description">To retrieve claim history</property>
+  <property name="id">Test Cases/phs-retrieve/phcldetl</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\phcldetl.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117084</millis>
+  <sequence>111</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phcldetl\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phcldetl\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;phcldetl\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117085</millis>
+  <sequence>115</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phcldetl\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phcldetl\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;phcldetl\&amp;quot;).getValue(2, 1)])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/phcldetl&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/phcldetl&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat phcldetl.run(phcldetl:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcldetl' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcldetl' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>phcldetl</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117086</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phcldetl\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phcldetl\&amp;quot;).getValue(1, 1), \&amp;quot;chdrnum\&amp;quot;:findTestData(\&amp;quot;phcldetl\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117086</millis>
+  <sequence>118</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/phcldetl FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/phcldetl&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/phcldetl&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat phcldetl.run(phcldetl:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcldetl' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcldetl' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>phcldetl</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117087</millis>
+  <sequence>119</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/phcldetl</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117110</millis>
+  <sequence>120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/phcpolrtv</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/phcpolrtv</property>
+  <property name="description">To retrieve no policy based on client number &amp; role</property>
+  <property name="id">Test Cases/phs-retrieve/phcpolrtv</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\phcpolrtv.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117579</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phcpolrtv\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phcpolrtv\&amp;quot;).getValue(1, 1), \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;phcpolrtv\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117581</millis>
+  <sequence>126</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phcpolrtv\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phcpolrtv\&amp;quot;).getValue(1, 1), \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;phcpolrtv\&amp;quot;).getValue(2, 1), ... ])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/phcpolrtv&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/phcpolrtv&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat phcpolrtv.run(phcpolrtv:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcpolrtv' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcpolrtv' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>phcpolrtv</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117581</millis>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phcpolrtv\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phcpolrtv\&amp;quot;).getValue(1, 1), \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;phcpolrtv\&amp;quot;).getValue(2, 1), ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117582</millis>
+  <sequence>129</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/phcpolrtv FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/phcpolrtv&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/phcpolrtv&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat phcpolrtv.run(phcpolrtv:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phcpolrtv' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phcpolrtv' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>phcpolrtv</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117583</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/phcpolrtv</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:57</date>
+  <millis>1564383117600</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/phrtvbilst</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/phrtvbilst</property>
+  <property name="description">To retrieve billing status</property>
+  <property name="id">Test Cases/phs-retrieve/phrtvbilst</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\phrtvbilst.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118000</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvbilst\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phrtvbilst\&amp;quot;).getValue(1, 1), \&amp;quot;chdrsel\&amp;quot;:findTestData(\&amp;quot;phrtvbilst\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118002</millis>
+  <sequence>137</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvbilst\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phrtvbilst\&amp;quot;).getValue(1, 1), \&amp;quot;chdrsel\&amp;quot;:findTestData(\&amp;quot;phrtvbilst\&amp;quot;).getValue(2, 1)])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/phrtvbilst&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/phrtvbilst&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat phrtvbilst.run(phrtvbilst:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>phrtvbilst</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118004</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvbilst\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phrtvbilst\&amp;quot;).getValue(1, 1), \&amp;quot;chdrsel\&amp;quot;:findTestData(\&amp;quot;phrtvbilst\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118004</millis>
+  <sequence>140</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/phrtvbilst FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/phrtvbilst&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/phrtvbilst&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat phrtvbilst.run(phrtvbilst:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>phrtvbilst</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118005</millis>
+  <sequence>141</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/phrtvbilst</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118023</millis>
+  <sequence>142</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/phrtvcomcl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/phrtvcomcl</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/phs-retrieve/phrtvcomcl</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\phrtvcomcl.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118383</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvcomcl\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/phrtvcomcl\&amp;quot;).getValue(1, 1), \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/phrtvcomcl\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118908</millis>
+  <sequence>156</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-retrieve\\phs-retrieve\\20190729_135144\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2343e064-171e-4e18-9f7d-3f28a9fe6148</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118916</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118917</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvcomcl\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/phrtvcomcl\&amp;quot;).getValue(1, 1), \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/phrtvcomcl\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118917</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118921</millis>
+  <sequence>161</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118922</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118922</millis>
+  <sequence>163</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/phrtvcomcl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118928</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/phrtvcomcl</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:58</date>
+  <millis>1564383118954</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/phrtvmed6</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/phrtvmed6</property>
+  <property name="description">To retrieve follow up code for medical six months</property>
+  <property name="id">Test Cases/phs-retrieve/phrtvmed6</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\phrtvmed6.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119286</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvmed6\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phrtvmed6\&amp;quot;).getValue(1, 1), \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;phrtvmed6\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119289</millis>
+  <sequence>171</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvmed6\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phrtvmed6\&amp;quot;).getValue(1, 1), \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;phrtvmed6\&amp;quot;).getValue(2, 1)])) FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/phrtvmed6&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/phrtvmed6&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat phrtvmed6.run(phrtvmed6:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvmed6' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvmed6' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>phrtvmed6</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119289</millis>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvmed6\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;objid\&amp;quot;:findTestData(\&amp;quot;phrtvmed6\&amp;quot;).getValue(1, 1), \&amp;quot;clntnum\&amp;quot;:findTestData(\&amp;quot;phrtvmed6\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119290</millis>
+  <sequence>174</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/phrtvmed6 FAILED.\nReason:\njava.lang.IllegalArgumentException: Cannot find test data with id &amp;apos;Data Files/phrtvmed6&amp;apos; because (of) &amp;apos;java.lang.IllegalArgumentException: Test data with id &amp;apos;Data Files/phrtvmed6&amp;apos; does not exist&amp;apos;\r\n\tat com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)\r\n\tat com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)\r\n\tat phrtvmed6.run(phrtvmed6:17)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvmed6' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvmed6' does not exist'</message>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory</class>
+      <method>findTestData</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.testdata.TestDataFactory$findTestData</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>phrtvmed6</class>
+      <method>run</method>
+      <line>17</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119291</millis>
+  <sequence>175</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/phrtvmed6</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119309</millis>
+  <sequence>176</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/phrtvsubst</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/phrtvsubst</property>
+  <property name="description">To retrieve substandard flag</property>
+  <property name="id">Test Cases/phs-retrieve/phrtvsubst</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\phrtvsubst.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119641</millis>
+  <sequence>179</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/phrtvsubst FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/SURYAPURBA/PHS/PHS/Scripts/phs-retrieve/phrtvsubst/Script1563356774037.groovy: 16: unable to resolve class ResponseObject \n @ line 16, column 16.\r\n   ResponseObject response = WS.sendRequest(findTestObject(&amp;apos;phs-retrieve/phrtvsubst&amp;apos;, [(&amp;apos;endpoint&amp;apos;) : GlobalVariable.endpoint, (&amp;apos;objid&amp;apos;) : findTestData(\r\n                  ^\r\n\r\n1 error\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564383104680.run(TempTestSuite1564383104680.groovy:35)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/SURYAPURBA/PHS/PHS/Scripts/phs-retrieve/phrtvsubst/Script1563356774037.groovy: 16: unable to resolve class ResponseObject 
+ @ line 16, column 16.
+   ResponseObject response = WS.sendRequest(findTestObject('phs-retrieve/phrtvsubst', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
+                  ^
+
+1 error
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564383104680</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119643</millis>
+  <sequence>180</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/phrtvsubst</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:51:59</date>
+  <millis>1564383119656</millis>
+  <sequence>181</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/phs-retrieve/phrtvt5661</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/phs-retrieve/phrtvt5661</property>
+  <property name="description">To retrieve all follow up code from t5661</property>
+  <property name="id">Test Cases/phs-retrieve/phrtvt5661</property>
+  <property name="source">C:\\SURYAPURBA\\PHS\\PHS\\Test Cases\\phs-retrieve\\phrtvt5661.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120069</millis>
+  <sequence>183</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvt5661\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;FUPCDE\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/phrtvt5661\&amp;quot;).getValue(1, 1), \&amp;quot;OBJID\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/phrtvt5661\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120516</millis>
+  <sequence>195</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-retrieve\\phs-retrieve\\20190729_135144\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6761e60c-840e-40fe-84fe-b475f0dc1b98</property>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120518</millis>
+  <sequence>196</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120519</millis>
+  <sequence>197</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;phs-retrieve/phrtvt5661\&amp;quot;, [\&amp;quot;endpoint\&amp;quot;:endpoint, \&amp;quot;FUPCDE\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/phrtvt5661\&amp;quot;).getValue(1, 1), \&amp;quot;OBJID\&amp;quot;:findTestData(\&amp;quot;phs-retrieve/phrtvt5661\&amp;quot;).getValue(2, 1)]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120519</millis>
+  <sequence>198</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120521</millis>
+  <sequence>200</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120521</millis>
+  <sequence>201</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120522</millis>
+  <sequence>202</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/phs-retrieve/phrtvt5661</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120522</millis>
+  <sequence>203</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/phs-retrieve/phrtvt5661</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-29T13:52:00</date>
+  <millis>1564383120593</millis>
+  <sequence>204</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/phs-retrieve/phs-retrieve</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
