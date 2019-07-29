@@ -14,7 +14,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 def response = WS.sendRequest(findTestObject('phs-retrieve/BORetriveComponent', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
-                'BORetriveComponent').getValue(1, 1), ('chdrnum') : findTestData('BORetriveComponent').getValue(2, 1)]))
+                'phs-retrieve/BORetriveComponent').getValue(1, 1), ('chdrnum') : findTestData('phs-retrieve/BORetriveComponent').getValue(
+                2, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)
+
+
 

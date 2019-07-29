@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="phs-transaction" time="28" tests="20" failures="0" errors="0">
+    <testsuite name="phs-transaction" tests="20" failures="0" errors="0" time="28" timestamp="2019-07-29 16:10:40" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/phs-transaction/phs-transaction">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-transaction\\phs-transaction\\20190729_161036"/>
+            <property name="logFiles" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-transaction\\phs-transaction\\20190729_161036\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+            <property name="hostAddress" value="10.170.236.50"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+        </properties>
+        <testcase name="Test Cases/phs-transaction/checkDuplicateCase" classname="Test Cases/phs-transaction/checkDuplicateCase" status="PASSED">
+            <system-out>2019-07-29 16:10:40 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/checkDuplicateCase: Test Cases/phs-transaction/checkDuplicateCase&#xD;
+&#xD;
+2019-07-29 16:10:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/checkDuplicateCase", ["endpoint":endpoint, "genId":findTestData("phs-transaction/checkDuplicateCase").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:43 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\0.har&#xD;
+&#xD;
+2019-07-29 16:10:43 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:43 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getAlterationByGenId" classname="Test Cases/phs-transaction/getAlterationByGenId" status="PASSED">
+            <system-out>2019-07-29 16:10:43 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getAlterationByGenId: Test Cases/phs-transaction/getAlterationByGenId&#xD;
+&#xD;
+2019-07-29 16:10:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getAlterationByGenId", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getAlterationByGenId").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:44 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\1.har&#xD;
+&#xD;
+2019-07-29 16:10:44 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:44 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getAscUserByGenId" classname="Test Cases/phs-transaction/getAscUserByGenId" status="PASSED">
+            <system-out>2019-07-29 16:10:44 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getAscUserByGenId: Test Cases/phs-transaction/getAscUserByGenId&#xD;
+&#xD;
+2019-07-29 16:10:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getAscUserByGenId", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getAscUserByGenId").getValue(1, 1), "taskName":findTestData("phs-transaction/getAscUserByGenId").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:44 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\2.har&#xD;
+&#xD;
+2019-07-29 16:10:44 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:44 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:44 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getCmIdByGenId" classname="Test Cases/phs-transaction/getCmIdByGenId" status="PASSED">
+            <system-out>2019-07-29 16:10:44 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getCmIdByGenId: Test Cases/phs-transaction/getCmIdByGenId&#xD;
+&#xD;
+2019-07-29 16:10:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getCmIdByGenId", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getCmIdByGenId").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:45 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\3.har&#xD;
+&#xD;
+2019-07-29 16:10:45 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:45 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getExistingCaseByGenId" classname="Test Cases/phs-transaction/getExistingCaseByGenId" status="PASSED">
+            <system-out>2019-07-29 16:10:45 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getExistingCaseByGenId: Test Cases/phs-transaction/getExistingCaseByGenId&#xD;
+&#xD;
+2019-07-29 16:10:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getExistingCaseByGenId", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getExistingCaseByGenId").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\4.har&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getExistingDataComponentByGenId" classname="Test Cases/phs-transaction/getExistingDataComponentByGenId" status="PASSED">
+            <system-out>2019-07-29 16:10:46 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getExistingDataComponentByGenId: Test Cases/phs-transaction/getExistingDataComponentByGenId&#xD;
+&#xD;
+2019-07-29 16:10:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getExistingDataComponentByGenId", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getExistingDataComponentByGenId").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\5.har&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getJsonDataCapSubAlterByGenId" classname="Test Cases/phs-transaction/getJsonDataCapSubAlterByGenId" status="PASSED">
+            <system-out>2019-07-29 16:10:46 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getJsonDataCapSubAlterByGenId: Test Cases/phs-transaction/getJsonDataCapSubAlterByGenId&#xD;
+&#xD;
+2019-07-29 16:10:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getJsonDataCapSubAlterByGenId", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getJsonDataCapSubAlterByGenId").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\6.har&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getMsaFsaResultByGenId" classname="Test Cases/phs-transaction/getMsaFsaResultByGenId" status="PASSED">
+            <system-out>2019-07-29 16:10:46 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getMsaFsaResultByGenId: Test Cases/phs-transaction/getMsaFsaResultByGenId&#xD;
+&#xD;
+2019-07-29 16:10:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getMsaFsaResultByGenId", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getMsaFsaResultByGenId").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:47 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\7.har&#xD;
+&#xD;
+2019-07-29 16:10:47 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:47 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:47 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getPolAndAlter" classname="Test Cases/phs-transaction/getPolAndAlter" status="PASSED">
+            <system-out>2019-07-29 16:10:47 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getPolAndAlter: Test Cases/phs-transaction/getPolAndAlter&#xD;
+&#xD;
+2019-07-29 16:10:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getPolAndAlter", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getPolAndAlter").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:47 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\8.har&#xD;
+&#xD;
+2019-07-29 16:10:47 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:47 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:47 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/getTrxTableByGenID" classname="Test Cases/phs-transaction/getTrxTableByGenID" status="PASSED">
+            <system-out>2019-07-29 16:10:47 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/getTrxTableByGenID: Test Cases/phs-transaction/getTrxTableByGenID&#xD;
+&#xD;
+2019-07-29 16:10:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/getTrxTableByGenID", ["endpoint":endpoint, "genId":findTestData("phs-transaction/getTrxTableByGenID").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:48 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\9.har&#xD;
+&#xD;
+2019-07-29 16:10:48 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:48 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/saveErrorLog" classname="Test Cases/phs-transaction/saveErrorLog" status="PASSED">
+            <system-out>2019-07-29 16:10:48 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/saveErrorLog: Test Cases/phs-transaction/saveErrorLog&#xD;
+&#xD;
+2019-07-29 16:10:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/saveErrorLog", ["endpoint":endpoint, "genId":findTestData("phs-transaction/saveErrorLog").getValue(1, 1), "message":findTestData("phs-transaction/saveErrorLog").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:49 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\10.har&#xD;
+&#xD;
+2019-07-29 16:10:49 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:49 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/saveEvdLifeAssured" classname="Test Cases/phs-transaction/saveEvdLifeAssured" status="PASSED">
+            <system-out>2019-07-29 16:10:49 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/saveEvdLifeAssured: Test Cases/phs-transaction/saveEvdLifeAssured&#xD;
+&#xD;
+2019-07-29 16:10:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/saveEvdLifeAssured", ["endpoint":endpoint, "genId":findTestData("phs-transaction/saveEvdLifeAssured").getValue(1, 1), "clientNo":findTestData("phs-transaction/saveEvdLifeAssured").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:49 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\11.har&#xD;
+&#xD;
+2019-07-29 16:10:49 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:49 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/saveMsaFsaResult" classname="Test Cases/phs-transaction/saveMsaFsaResult" status="PASSED">
+            <system-out>2019-07-29 16:10:49 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/saveMsaFsaResult: Test Cases/phs-transaction/saveMsaFsaResult&#xD;
+&#xD;
+2019-07-29 16:10:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/saveMsaFsaResult", ["endpoint":endpoint, "id":findTestData("phs-transaction/saveMsaFsaResult").getValue(1, 1), "genId":findTestData("phs-transaction/saveMsaFsaResult").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:50 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\12.har&#xD;
+&#xD;
+2019-07-29 16:10:50 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:50 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/saveTaskDetail" classname="Test Cases/phs-transaction/saveTaskDetail" status="PASSED">
+            <system-out>2019-07-29 16:10:50 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/saveTaskDetail: Test Cases/phs-transaction/saveTaskDetail&#xD;
+&#xD;
+2019-07-29 16:10:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/saveTaskDetail", ["endpoint":endpoint, "trxId":findTestData("phs-transaction/saveTaskDetail").getValue(1, 1), "genId":findTestData("phs-transaction/saveTaskDetail").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:52 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\13.har&#xD;
+&#xD;
+2019-07-29 16:10:52 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:52 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/setStatus" classname="Test Cases/phs-transaction/setStatus" status="PASSED">
+            <system-out>2019-07-29 16:10:52 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/setStatus: Test Cases/phs-transaction/setStatus&#xD;
+&#xD;
+2019-07-29 16:10:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/setStatus", ["endpoint":endpoint, "reqType":findTestData("phs-transaction/setStatus").getValue(1, 1), "trxIn":findTestData("phs-transaction/setStatus").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:52 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\14.har&#xD;
+&#xD;
+2019-07-29 16:10:52 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:52 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/setStatusSave" classname="Test Cases/phs-transaction/setStatusSave" status="PASSED">
+            <system-out>2019-07-29 16:10:52 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/setStatusSave: Test Cases/phs-transaction/setStatusSave&#xD;
+&#xD;
+2019-07-29 16:10:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/SetStatusSave", ["endpoint":endpoint, "reqType":findTestData("phs-transaction/setStatusSave").getValue(1, 1), "id":findTestData("phs-transaction/setStatusSave").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:53 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\15.har&#xD;
+&#xD;
+2019-07-29 16:10:53 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:53 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/statusBpm" classname="Test Cases/phs-transaction/statusBpm" status="PASSED">
+            <system-out>2019-07-29 16:10:53 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/statusBpm: Test Cases/phs-transaction/statusBpm&#xD;
+&#xD;
+2019-07-29 16:10:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/statusBpm", ["endpoint":endpoint, "statusBpm":findTestData("phs-transaction/statusBpm").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:54 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\16.har&#xD;
+&#xD;
+2019-07-29 16:10:54 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:10:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:54 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:10:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/statusCm" classname="Test Cases/phs-transaction/statusCm" status="PASSED">
+            <system-out>2019-07-29 16:10:54 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/statusCm: Test Cases/phs-transaction/statusCm&#xD;
+&#xD;
+2019-07-29 16:10:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/statusCm", ["endpoint":endpoint, "statusCm":findTestData("phs-transaction/statusCm").getValue(1, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:11:07 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\17.har&#xD;
+&#xD;
+2019-07-29 16:11:07 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:11:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:11:07 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:11:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/updateAlterNumber" classname="Test Cases/phs-transaction/updateAlterNumber" status="PASSED">
+            <system-out>2019-07-29 16:11:07 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/updateAlterNumber: Test Cases/phs-transaction/updateAlterNumber&#xD;
+&#xD;
+2019-07-29 16:11:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/updateAlterNumber", ["endpoint":endpoint, "trxId":findTestData("phs-transaction/updateAlterNumber").getValue(1, 1), "genId":findTestData("phs-transaction/updateAlterNumber").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:11:08 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\18.har&#xD;
+&#xD;
+2019-07-29 16:11:08 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:11:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:11:08 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:11:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-transaction/updateStatusProcess" classname="Test Cases/phs-transaction/updateStatusProcess" status="PASSED">
+            <system-out>2019-07-29 16:11:08 - [TEST_CASE][PASSED] - Test Cases/phs-transaction/updateStatusProcess: Test Cases/phs-transaction/updateStatusProcess&#xD;
+&#xD;
+2019-07-29 16:11:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-transaction/updateStatusProcess", ["endpoint":endpoint, "genId":findTestData("phs-transaction/updateStatusProcess").getValue(1, 1), "statusProcess":findTestData("phs-transaction/updateStatusProcess").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 16:11:08 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-transaction\phs-transaction\20190729_161036\requests\main\19.har&#xD;
+&#xD;
+2019-07-29 16:11:08 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 16:11:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:11:08 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 16:11:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-29 16:10:40 - [TEST_SUITE][INCOMPLETE] - phs-transaction: null</system-out>
+        <system-err>2019-07-29 16:10:40 - [TEST_SUITE][INCOMPLETE] - phs-transaction: null</system-err>
+    </testsuite>
+</testsuites>

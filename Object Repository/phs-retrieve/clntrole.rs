@@ -6,6 +6,7 @@
    <elementGuidId>8b48cfb9-51c1-436b-920f-d24e3b49430c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;OBJID\&quot;: \&quot;${OBJID}\&quot;\n}\n&quot;,
@@ -36,14 +37,14 @@
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('clntrole').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/clntrole').getValue(1, 1)</defaultValue>
       <description></description>
       <id>bbfeae97-129e-47fb-b4df-a43da428a199</id>
       <masked>false</masked>
       <name>clntnum</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('clntrole').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/clntrole').getValue(2, 1)</defaultValue>
       <description></description>
       <id>93204ee9-a9b2-4a61-8343-ed3be2a42565</id>
       <masked>false</masked>

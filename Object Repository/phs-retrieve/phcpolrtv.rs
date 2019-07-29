@@ -6,6 +6,7 @@
    <elementGuidId>dc55862f-64ed-426b-b693-19017bff42d2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;,\n  \&quot;clrrrole\&quot;: \&quot;${clrrrole}\&quot;\n}\n&quot;,
@@ -36,21 +37,21 @@
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phcpolrtv').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/phcpolrtv').getValue(1, 1)</defaultValue>
       <description></description>
       <id>8def50f6-8cb5-42d8-a3d4-ff6e459b3b22</id>
       <masked>false</masked>
       <name>objid</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phcpolrtv').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/phcpolrtv').getValue(2, 1)</defaultValue>
       <description></description>
       <id>885d75a3-0236-43bc-bc45-90014a9daa86</id>
       <masked>false</masked>
       <name>clntnum</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phcpolrtv').getValue(3, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/phcpolrtv').getValue(3, 1)</defaultValue>
       <description></description>
       <id>024ae425-5d5d-471d-9209-65c485274442</id>
       <masked>false</masked>

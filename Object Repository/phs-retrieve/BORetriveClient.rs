@@ -6,6 +6,7 @@
    <elementGuidId>b0bae4d5-6f2a-4474-9aab-b0edbfad76de</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;\n}\n&quot;,
@@ -36,14 +37,14 @@
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetriveClient').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetriveClient').getValue(1, 1)</defaultValue>
       <description></description>
       <id>038ca79b-29cd-444f-a584-617f021fd8a1</id>
       <masked>false</masked>
       <name>objid</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetriveClient').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetriveClient').getValue(2, 1)</defaultValue>
       <description></description>
       <id>657a39bf-8746-4cd4-93ca-8384181e97ca</id>
       <masked>false</masked>

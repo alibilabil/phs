@@ -6,6 +6,7 @@
    <elementGuidId>60469b04-dd2a-4535-b1d4-620f8d959711</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;clntnum\&quot;: \&quot;${clntnum}\&quot;\n}&quot;,
@@ -43,7 +44,7 @@
       <name>objid</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phrtvmed6').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/phrtvmed6').getValue(2, 1)</defaultValue>
       <description></description>
       <id>4ab10fa6-e6a9-4a86-8c37-dba3dcf6c11a</id>
       <masked>false</masked>

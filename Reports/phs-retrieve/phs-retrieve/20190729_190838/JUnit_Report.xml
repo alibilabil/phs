@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="phs-retrieve" time="16" tests="13" failures="1" errors="1">
+    <testsuite name="phs-retrieve" tests="13" failures="1" errors="1" time="16" timestamp="2019-07-29 19:08:42" hostname="c19679 - LIDLIFE38B0WS.PRU.intranet.asia" id="Test Suites/phs-retrieve/phs-retrieve">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-retrieve\\phs-retrieve\\20190729_190838"/>
+            <property name="logFiles" value="C:\\SURYAPURBA\\PHS\\PHS\\Reports\\phs-retrieve\\phs-retrieve\\20190729_190838\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="c19679 - LIDLIFE38B0WS.PRU.intranet.asia"/>
+            <property name="hostAddress" value="10.170.236.50"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+        </properties>
+        <testcase name="Test Cases/phs-retrieve/BOExclusionClause" classname="Test Cases/phs-retrieve/BOExclusionClause" status="PASSED">
+            <system-out>2019-07-29 19:08:42 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/BOExclusionClause: Test Cases/phs-retrieve/BOExclusionClause&#xD;
+&#xD;
+2019-07-29 19:08:43 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/BOExclusionClause", ["endpoint":endpoint, "chdrnum":findTestData("phs-retrieve/BOExclusionClause").getValue(1, 1), "zaltnum":findTestData("phs-retrieve/BOExclusionClause").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:46 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\0.har&#xD;
+&#xD;
+2019-07-29 19:08:46 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:46 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/BORetriveAddExclusion" classname="Test Cases/phs-retrieve/BORetriveAddExclusion" status="PASSED">
+            <system-out>2019-07-29 19:08:46 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/BORetriveAddExclusion: Test Cases/phs-retrieve/BORetriveAddExclusion&#xD;
+&#xD;
+2019-07-29 19:08:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/BORetriveAddExclusion", ["endpoint":endpoint, "chdrnum":findTestData("phs-retrieve/BORetriveAddExclusion").getValue(1, 1), "zaltnum":findTestData("phs-retrieve/BORetriveAddExclusion").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:47 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\1.har&#xD;
+&#xD;
+2019-07-29 19:08:47 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:47 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:47 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/BORetriveClient" classname="Test Cases/phs-retrieve/BORetriveClient" status="PASSED">
+            <system-out>2019-07-29 19:08:48 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/BORetriveClient: Test Cases/phs-retrieve/BORetriveClient&#xD;
+&#xD;
+2019-07-29 19:08:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/BORetriveClient", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/BORetriveClient").getValue(1, 1), "chdrnum":findTestData("phs-retrieve/BORetriveClient").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:48 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\2.har&#xD;
+&#xD;
+2019-07-29 19:08:48 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:48 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/BORetriveComponent" classname="Test Cases/phs-retrieve/BORetriveComponent" status="PASSED">
+            <system-out>2019-07-29 19:08:48 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/BORetriveComponent: Test Cases/phs-retrieve/BORetriveComponent&#xD;
+&#xD;
+2019-07-29 19:08:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/BORetriveComponent", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/BORetriveComponent").getValue(1, 1), "chdrnum":findTestData("phs-retrieve/BORetriveComponent").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:49 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\3.har&#xD;
+&#xD;
+2019-07-29 19:08:49 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:49 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/BORetriveDeleteExclusionClause" classname="Test Cases/phs-retrieve/BORetriveDeleteExclusionClause" status="PASSED">
+            <system-out>2019-07-29 19:08:49 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/BORetriveDeleteExclusionClause: Test Cases/phs-retrieve/BORetriveDeleteExclusionClause&#xD;
+&#xD;
+2019-07-29 19:08:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/BORetriveDeleteExclusionClause", ["endpoint":endpoint, "chdrnum":findTestData("phs-retrieve/BORetriveDeleteExclusionClause").getValue(1, 1), "fupcde":findTestData("phs-retrieve/BORetriveDeleteExclusionClause").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:50 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\4.har&#xD;
+&#xD;
+2019-07-29 19:08:50 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:50 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/BORetriveFlag" classname="Test Cases/phs-retrieve/BORetriveFlag" status="FAILED">
+            <failure type="FAILED" message="Test Cases/phs-retrieve/BORetriveFlag FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;&#xA;&#x9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)&#xD;&#xA;&#x9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)&#xD;&#xA;&#x9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;&#xA;&#x9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)&#xD;&#xA;&#x9;at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)&#xD;&#xA;&#x9;at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)&#xD;&#xA;&#x9;at BORetriveFlag.run(BORetriveFlag:21)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1564402118270.run(TempTestSuite1564402118270.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-29 19:08:50 - [TEST_CASE][FAILED] - Test Cases/phs-retrieve/BORetriveFlag: Test Cases/phs-retrieve/BORetriveFlag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)&#xD;
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)&#xD;
+	at BORetriveFlag.run(BORetriveFlag:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564402118270.run(TempTestSuite1564402118270.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-29 19:08:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/BORetriveFlag", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/BORetrieveFlag").getValue(1, 1), "chdrnum":findTestData("phs-retrieve/BORetrieveFlag").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:51 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\5.har&#xD;
+&#xD;
+2019-07-29 19:08:51 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:51 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, 200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)&#xD;
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)&#xD;
+	at BORetriveFlag.run(BORetriveFlag:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564402118270.run(TempTestSuite1564402118270.groovy:35)&#xD;
+)&#xD;
+&#xD;
+2019-07-29 19:08:51 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'&#xD;
+&#xD;
+2019-07-29 19:08:51 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)&#xD;
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)&#xD;
+	at BORetriveFlag.run(BORetriveFlag:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564402118270.run(TempTestSuite1564402118270.groovy:35)&#xD;
+)&#xD;
+&#xD;
+2019-07-29 19:08:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err>2019-07-29 19:08:50 - [TEST_CASE][FAILED] - Test Cases/phs-retrieve/BORetriveFlag: Test Cases/phs-retrieve/BORetriveFlag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:212)&#xD;
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)&#xD;
+	at BORetriveFlag.run(BORetriveFlag:21)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564402118270.run(TempTestSuite1564402118270.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/clntrole" classname="Test Cases/phs-retrieve/clntrole" status="PASSED">
+            <system-out>2019-07-29 19:08:51 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/clntrole: Test Cases/phs-retrieve/clntrole&#xD;
+&#xD;
+2019-07-29 19:08:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/clntrole", ["endpoint":endpoint, "clntnum":findTestData("phs-retrieve/clntrole").getValue(1, 1), "OBJID":findTestData("phs-retrieve/clntrole").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:52 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\6.har&#xD;
+&#xD;
+2019-07-29 19:08:52 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:52 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/getpolenq" classname="Test Cases/phs-retrieve/getpolenq" status="PASSED">
+            <system-out>2019-07-29 19:08:52 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/getpolenq: Test Cases/phs-retrieve/getpolenq&#xD;
+&#xD;
+2019-07-29 19:08:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/getpolenq", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/getpolenq").getValue(1, 1), "zchdrsel":findTestData("phs-retrieve/getpolenq").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:52 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\7.har&#xD;
+&#xD;
+2019-07-29 19:08:52 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:52 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/phcldetl" classname="Test Cases/phs-retrieve/phcldetl" status="PASSED">
+            <system-out>2019-07-29 19:08:52 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/phcldetl: Test Cases/phs-retrieve/phcldetl&#xD;
+&#xD;
+2019-07-29 19:08:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phcldetl", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/phcldetl").getValue(1, 1), "chdrnum":findTestData("phs-retrieve/phcldetl").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:53 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\8.har&#xD;
+&#xD;
+2019-07-29 19:08:53 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:53 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/phcpolrtv" classname="Test Cases/phs-retrieve/phcpolrtv" status="PASSED">
+            <system-out>2019-07-29 19:08:53 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/phcpolrtv: Test Cases/phs-retrieve/phcpolrtv&#xD;
+&#xD;
+2019-07-29 19:08:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phcpolrtv", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/phcpolrtv").getValue(1, 1), "clntnum":findTestData("phs-retrieve/phcpolrtv").getValue(2, 1), ... ])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:54 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\9.har&#xD;
+&#xD;
+2019-07-29 19:08:54 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:54 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/phrtvbilst" classname="Test Cases/phs-retrieve/phrtvbilst" status="ERROR">
+            <error type="ERROR" message="Test Cases/phs-retrieve/phrtvbilst FAILED.&#xA;Reason:&#xA;java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'&#xD;&#xA;&#x9;at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)&#xD;&#xA;&#x9;at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)&#xD;&#xA;&#x9;at phrtvbilst.run(phrtvbilst:17)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1564402118270.run(TempTestSuite1564402118270.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-29 19:08:54 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phrtvbilst: Test Cases/phs-retrieve/phrtvbilst FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'&#xD;
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)&#xD;
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)&#xD;
+	at phrtvbilst.run(phrtvbilst:17)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564402118270.run(TempTestSuite1564402118270.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-29 19:08:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phrtvbilst", ["endpoint":endpoint, "objid":findTestData("phrtvbilst").getValue(1, 1), "chdrsel":findTestData("phrtvbilst").getValue(2, 1)])): null&#xD;
+&#xD;
+2019-07-29 19:08:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err>2019-07-29 19:08:54 - [TEST_CASE][ERROR] - Test Cases/phs-retrieve/phrtvbilst: Test Cases/phs-retrieve/phrtvbilst FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/phrtvbilst' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/phrtvbilst' does not exist'&#xD;
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)&#xD;
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)&#xD;
+	at phrtvbilst.run(phrtvbilst:17)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1564402118270.run(TempTestSuite1564402118270.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/phrtvcomcl" classname="Test Cases/phs-retrieve/phrtvcomcl" status="PASSED">
+            <system-out>2019-07-29 19:08:55 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/phrtvcomcl: Test Cases/phs-retrieve/phrtvcomcl&#xD;
+&#xD;
+2019-07-29 19:08:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phrtvcomcl", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/phrtvcomcl").getValue(1, 1), "clntnum":findTestData("phs-retrieve/phrtvcomcl").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:56 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\10.har&#xD;
+&#xD;
+2019-07-29 19:08:56 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:56 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/phrtvmed6" classname="Test Cases/phs-retrieve/phrtvmed6" status="PASSED">
+            <system-out>2019-07-29 19:08:56 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/phrtvmed6: Test Cases/phs-retrieve/phrtvmed6&#xD;
+&#xD;
+2019-07-29 19:08:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phrtvmed6", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/phrtvmed6").getValue(1, 1), "clntnum":findTestData("phs-retrieve/phrtvmed6").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:56 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\11.har&#xD;
+&#xD;
+2019-07-29 19:08:56 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:56 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/phrtvsubst" classname="Test Cases/phs-retrieve/phrtvsubst" status="PASSED">
+            <system-out>2019-07-29 19:08:56 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/phrtvsubst: Test Cases/phs-retrieve/phrtvsubst&#xD;
+&#xD;
+2019-07-29 19:08:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phrtvsubst", ["endpoint":endpoint, "objid":findTestData("phs-retrieve/phrtvsubst").getValue(1, 1), "chdrno":findTestData("phs-retrieve/phrtvsubst").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:57 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\12.har&#xD;
+&#xD;
+2019-07-29 19:08:57 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:57 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:57 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/phs-retrieve/phrtvt5661" classname="Test Cases/phs-retrieve/phrtvt5661" status="PASSED">
+            <system-out>2019-07-29 19:08:57 - [TEST_CASE][PASSED] - Test Cases/phs-retrieve/phrtvt5661: Test Cases/phs-retrieve/phrtvt5661&#xD;
+&#xD;
+2019-07-29 19:08:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("phs-retrieve/phrtvt5661", ["endpoint":endpoint, "FUPCDE":findTestData("phs-retrieve/phrtvt5661").getValue(1, 1), "OBJID":findTestData("phs-retrieve/phrtvt5661").getValue(2, 1)])): Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:58 - [MESSAGE][INFO] - HAR: C:\SURYAPURBA\PHS\PHS\Reports\phs-retrieve\phs-retrieve\20190729_190838\requests\main\13.har&#xD;
+&#xD;
+2019-07-29 19:08:58 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-29 19:08:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:58 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-07-29 19:08:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-29 19:08:42 - [TEST_SUITE][INCOMPLETE] - phs-retrieve: null</system-out>
+        <system-err>2019-07-29 19:08:42 - [TEST_SUITE][INCOMPLETE] - phs-retrieve: null</system-err>
+    </testsuite>
+</testsuites>

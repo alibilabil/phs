@@ -8,14 +8,15 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 ResponseObject response = WS.sendRequest(findTestObject('phs-retrieve/BORetriveFlag', [('endpoint') : GlobalVariable.endpoint, ('objid') : findTestData(
-                'BORetrieveFlag').getValue(1, 1), ('chdrnum') : findTestData('BORetrieveFlag').getValue(2, 1)]))
+                'phs-retrieve/BORetrieveFlag').getValue(1, 1), ('chdrnum') : findTestData('phs-retrieve/BORetrieveFlag').getValue(
+                2, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)
 

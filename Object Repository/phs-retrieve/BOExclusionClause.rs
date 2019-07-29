@@ -6,9 +6,10 @@
    <elementGuidId>68c143ec-6e48-4105-9412-76ed8dd9973e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;chdrnum\&quot;: \&quot;12118866\&quot;,\n  \&quot;zaltnum\&quot;: \&quot;A0000014\&quot;,\n  \&quot;fupno\&quot;: \&quot;00061\&quot;,\n  \&quot;objid\&quot;: \&quot;PHRTVEXCLS\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;,\n  \&quot;zaltnum\&quot;: \&quot;${zaltnum}\&quot;,\n  \&quot;fupno\&quot;: \&quot;${fupno}\&quot;,\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://10.170.49.229/phs-retrieve/rest/api/BOExclusionClause</restUrl>
+   <restUrl>${endpoint}/phs-retrieve/rest/api/BOExclusionClause</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -33,31 +34,31 @@
       <description></description>
       <id>388059d8-988b-4f96-87cc-ece9d7fe38b7</id>
       <masked>false</masked>
-      <name>test</name>
+      <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOExclusionClause').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BOExclusionClause').getValue(1, 1)</defaultValue>
       <description></description>
       <id>2ca025cf-441b-40ed-89f0-5110a72b60d3</id>
       <masked>false</masked>
       <name>chdrnum</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOExclusionClause').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BOExclusionClause').getValue(2, 1)</defaultValue>
       <description></description>
       <id>b5c3bd97-ee9c-4968-af9c-f20099d27043</id>
       <masked>false</masked>
       <name>zaltnum</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOExclusionClause').getValue(3, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BOExclusionClause').getValue(3, 1)</defaultValue>
       <description></description>
       <id>5591bfbd-fc75-4305-8b50-86bd173df010</id>
       <masked>false</masked>
       <name>fupno</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOExclusionClause').getValue(4, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BOExclusionClause').getValue(4, 1)</defaultValue>
       <description></description>
       <id>c46015e2-b4b0-45c7-8371-a7634fd87653</id>
       <masked>false</masked>

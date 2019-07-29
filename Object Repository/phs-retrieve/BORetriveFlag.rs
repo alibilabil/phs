@@ -6,6 +6,7 @@
    <elementGuidId>053e0e36-3fb8-4ba7-afc5-94316e5d9c0a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;\n}\n&quot;,
@@ -36,14 +37,14 @@
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetrieveFlag').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetrieveFlag').getValue(1, 1)</defaultValue>
       <description></description>
       <id>89d09ce3-79d9-44f7-969b-58b894bafeaf</id>
       <masked>false</masked>
       <name>objid</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetrieveFlag').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetrieveFlag').getValue(2, 1)</defaultValue>
       <description></description>
       <id>299669c8-db2d-47ef-be2d-5f1d2250bb7f</id>
       <masked>false</masked>

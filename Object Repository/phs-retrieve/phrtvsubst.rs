@@ -6,6 +6,7 @@
    <elementGuidId>bd0f8205-5447-4e4c-9fe6-aae936cc841b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrno\&quot;: \&quot;${chdrno}\&quot;\n}\n&quot;,
@@ -36,14 +37,14 @@
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phrtvsubst').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/phrtvsubst').getValue(1, 1)</defaultValue>
       <description></description>
       <id>ab8fc669-5295-42bf-a875-879129b81c48</id>
       <masked>false</masked>
       <name>objid</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phrtvsubst').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/phrtvsubst').getValue(2, 1)</defaultValue>
       <description></description>
       <id>2298fe56-a9d2-462e-92b7-4b66b71db856</id>
       <masked>false</masked>

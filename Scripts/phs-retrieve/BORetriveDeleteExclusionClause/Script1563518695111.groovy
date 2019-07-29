@@ -8,16 +8,19 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-ResponseObject response =WS.sendRequest(findTestObject('phs-retrieve/BORetriveDeleteExclusionClause', [('endpoint') : GlobalVariable.endpoint, ('chdrnum') : findTestData(
-                'BORetriveDeleteExclusionClause').getValue(1, 1), ('fupcde') : findTestData('BORetriveDeleteExclusionClause').getValue(
-                2, 1), ('zaltnum') : findTestData('BORetriveDeleteExclusionClause').getValue(3, 1), ('fupno') : findTestData(
-                'BORetriveDeleteExclusionClause').getValue(4, 1), ('objid') : findTestData('BORetriveDeleteExclusionClause').getValue(
+ResponseObject response = WS.sendRequest(findTestObject('phs-retrieve/BORetriveDeleteExclusionClause', [('endpoint') : GlobalVariable.endpoint, ('chdrnum') : findTestData(
+                'phs-retrieve/BORetriveDeleteExclusionClause').getValue(1, 1), ('fupcde') : findTestData('phs-retrieve/BORetriveDeleteExclusionClause').getValue(
+                2, 1), ('zaltnum') : findTestData('phs-retrieve/BORetriveDeleteExclusionClause').getValue(3, 1), ('fupno') : findTestData(
+                'phs-retrieve/BORetriveDeleteExclusionClause').getValue(4, 1), ('objid') : findTestData('phs-retrieve/BORetriveDeleteExclusionClause').getValue(
                 5, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)
+
+
+

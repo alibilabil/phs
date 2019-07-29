@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+phs-retrieve,,,,2019-07-29 19:08:42,2019-07-29 19:08:58,16.099s,INCOMPLETE
+,,,,,,,
+Test Cases/phs-retrieve/BOExclusionClause,,,,2019-07-29 19:08:42,2019-07-29 19:08:46,4.226s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/BOExclusionClause"", [""endpoint"":endpoint, ""chdrnum"":findTestData(""phs-retrieve/BOExclusionClause"").getValue(1, 1), ""zaltnum"":findTestData(""phs-retrieve/BOExclusionClause"").getValue(2, 1), ... ]))",,,,2019-07-29 19:08:43,2019-07-29 19:08:46,3.532s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:46,2019-07-29 19:08:46,0.019s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:46,2019-07-29 19:08:46,0.008s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/BORetriveAddExclusion,,To add exclusion clause,,2019-07-29 19:08:46,2019-07-29 19:08:47,1.065s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/BORetriveAddExclusion"", [""endpoint"":endpoint, ""chdrnum"":findTestData(""phs-retrieve/BORetriveAddExclusion"").getValue(1, 1), ""zaltnum"":findTestData(""phs-retrieve/BORetriveAddExclusion"").getValue(2, 1), ... ]))",,,,2019-07-29 19:08:47,2019-07-29 19:08:47,0.622s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:47,2019-07-29 19:08:47,0.012s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:47,2019-07-29 19:08:47,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/BORetriveClient,,/phs-retrieve/rest/api/BORetriveClient,,2019-07-29 19:08:48,2019-07-29 19:08:48,0.834s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/BORetriveClient"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/BORetriveClient"").getValue(1, 1), ""chdrnum"":findTestData(""phs-retrieve/BORetriveClient"").getValue(2, 1)]))",,,,2019-07-29 19:08:48,2019-07-29 19:08:48,0.367s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:48,2019-07-29 19:08:48,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:48,2019-07-29 19:08:48,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/BORetriveComponent,,/phs-retrieve/rest/api/BORetriveComponent,,2019-07-29 19:08:48,2019-07-29 19:08:49,0.760s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/BORetriveComponent"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/BORetriveComponent"").getValue(1, 1), ""chdrnum"":findTestData(""phs-retrieve/BORetriveComponent"").getValue(2, 1)]))",,,,2019-07-29 19:08:49,2019-07-29 19:08:49,0.367s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:49,2019-07-29 19:08:49,0.006s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:49,2019-07-29 19:08:49,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/BORetriveDeleteExclusionClause,,,,2019-07-29 19:08:49,2019-07-29 19:08:50,0.843s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/BORetriveDeleteExclusionClause"", [""endpoint"":endpoint, ""chdrnum"":findTestData(""phs-retrieve/BORetriveDeleteExclusionClause"").getValue(1, 1), ""fupcde"":findTestData(""phs-retrieve/BORetriveDeleteExclusionClause"").getValue(2, 1), ... ]))",,,,2019-07-29 19:08:50,2019-07-29 19:08:50,0.393s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:50,2019-07-29 19:08:50,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:50,2019-07-29 19:08:50,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/BORetriveFlag,,To retrieve vip & blacklist flag untuk client dan agent under police tertentu,,2019-07-29 19:08:50,2019-07-29 19:08:51,0.774s,FAILED
+"response = sendRequest(findTestObject(""phs-retrieve/BORetriveFlag"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/BORetrieveFlag"").getValue(1, 1), ""chdrnum"":findTestData(""phs-retrieve/BORetrieveFlag"").getValue(2, 1)]))",,,,2019-07-29 19:08:50,2019-07-29 19:08:51,0.250s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:51,2019-07-29 19:08:51,0.029s,FAILED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:51,2019-07-29 19:08:51,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/clntrole,,To retrieve policy and client role based on client number,,2019-07-29 19:08:51,2019-07-29 19:08:52,0.730s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/clntrole"", [""endpoint"":endpoint, ""clntnum"":findTestData(""phs-retrieve/clntrole"").getValue(1, 1), ""OBJID"":findTestData(""phs-retrieve/clntrole"").getValue(2, 1)]))",,,,2019-07-29 19:08:51,2019-07-29 19:08:52,0.301s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:52,2019-07-29 19:08:52,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:52,2019-07-29 19:08:52,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/getpolenq,,,,2019-07-29 19:08:52,2019-07-29 19:08:52,0.847s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/getpolenq"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/getpolenq"").getValue(1, 1), ""zchdrsel"":findTestData(""phs-retrieve/getpolenq"").getValue(2, 1), ... ]))",,,,2019-07-29 19:08:52,2019-07-29 19:08:52,0.436s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:52,2019-07-29 19:08:52,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:52,2019-07-29 19:08:52,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/phcldetl,,To retrieve claim history,,2019-07-29 19:08:52,2019-07-29 19:08:53,0.703s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/phcldetl"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/phcldetl"").getValue(1, 1), ""chdrnum"":findTestData(""phs-retrieve/phcldetl"").getValue(2, 1)]))",,,,2019-07-29 19:08:53,2019-07-29 19:08:53,0.249s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:53,2019-07-29 19:08:53,0.005s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:53,2019-07-29 19:08:53,0.000s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/phcpolrtv,,To retrieve no policy based on client number & role,,2019-07-29 19:08:53,2019-07-29 19:08:54,1.236s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/phcpolrtv"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/phcpolrtv"").getValue(1, 1), ""clntnum"":findTestData(""phs-retrieve/phcpolrtv"").getValue(2, 1), ... ]))",,,,2019-07-29 19:08:54,2019-07-29 19:08:54,0.314s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:54,2019-07-29 19:08:54,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:54,2019-07-29 19:08:54,0.000s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/phrtvbilst,,To retrieve billing status,,2019-07-29 19:08:54,2019-07-29 19:08:55,0.521s,ERROR
+"response = sendRequest(findTestObject(""phs-retrieve/phrtvbilst"", [""endpoint"":endpoint, ""objid"":findTestData(""phrtvbilst"").getValue(1, 1), ""chdrsel"":findTestData(""phrtvbilst"").getValue(2, 1)]))",,,,2019-07-29 19:08:55,2019-07-29 19:08:55,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:55,2019-07-29 19:08:55,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/phrtvcomcl,,,,2019-07-29 19:08:55,2019-07-29 19:08:56,0.657s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/phrtvcomcl"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/phrtvcomcl"").getValue(1, 1), ""clntnum"":findTestData(""phs-retrieve/phrtvcomcl"").getValue(2, 1)]))",,,,2019-07-29 19:08:55,2019-07-29 19:08:56,0.256s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:56,2019-07-29 19:08:56,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:56,2019-07-29 19:08:56,0.001s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/phrtvmed6,,To retrieve follow up code for medical six months,,2019-07-29 19:08:56,2019-07-29 19:08:56,0.775s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/phrtvmed6"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/phrtvmed6"").getValue(1, 1), ""clntnum"":findTestData(""phs-retrieve/phrtvmed6"").getValue(2, 1)]))",,,,2019-07-29 19:08:56,2019-07-29 19:08:56,0.366s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:56,2019-07-29 19:08:56,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:56,2019-07-29 19:08:56,0.000s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/phrtvsubst,,To retrieve substandard flag,,2019-07-29 19:08:56,2019-07-29 19:08:57,0.684s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/phrtvsubst"", [""endpoint"":endpoint, ""objid"":findTestData(""phs-retrieve/phrtvsubst"").getValue(1, 1), ""chdrno"":findTestData(""phs-retrieve/phrtvsubst"").getValue(2, 1)]))",,,,2019-07-29 19:08:57,2019-07-29 19:08:57,0.266s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:57,2019-07-29 19:08:57,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:57,2019-07-29 19:08:57,0.000s,PASSED
+,,,,,,,
+Test Cases/phs-retrieve/phrtvt5661,,To retrieve all follow up code from t5661,,2019-07-29 19:08:57,2019-07-29 19:08:58,0.686s,PASSED
+"response = sendRequest(findTestObject(""phs-retrieve/phrtvt5661"", [""endpoint"":endpoint, ""FUPCDE"":findTestData(""phs-retrieve/phrtvt5661"").getValue(1, 1), ""OBJID"":findTestData(""phs-retrieve/phrtvt5661"").getValue(2, 1)]))",,,,2019-07-29 19:08:57,2019-07-29 19:08:58,0.250s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-07-29 19:08:58,2019-07-29 19:08:58,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-07-29 19:08:58,2019-07-29 19:08:58,0.000s,PASSED

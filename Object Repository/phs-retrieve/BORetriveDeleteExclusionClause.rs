@@ -6,6 +6,7 @@
    <elementGuidId>861cd2f0-c1da-4090-a0d1-34e1d4b0fbbc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \&quot;CHDRNUM\&quot;: \&quot;12118866\&quot;,\n  \&quot;FUPCDE\&quot;: \&quot;E28\&quot;,\n  \&quot;ZALTNUM\&quot;: \&quot;A0000014\&quot;,\n  \&quot;FUPNO\&quot;: \&quot;00061\&quot;,\n  \&quot;OBJID\&quot;: \&quot;PHDELEXCLS\&quot;\n}\n&quot;,
@@ -36,35 +37,35 @@
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetriveDeleteExclusionClause').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetriveDeleteExclusionClause').getValue(1, 1)</defaultValue>
       <description></description>
       <id>74db807b-7ce9-46b4-af6e-9f4d02c51ce9</id>
       <masked>false</masked>
       <name>chdrnum</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetriveDeleteExclusionClause').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetriveDeleteExclusionClause').getValue(2, 1)</defaultValue>
       <description></description>
       <id>87a741ec-7712-4f01-9993-720a1a02bef1</id>
       <masked>false</masked>
       <name>fupcde</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetriveDeleteExclusionClause').getValue(3, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetriveDeleteExclusionClause').getValue(3, 1)</defaultValue>
       <description></description>
       <id>8891e347-8b18-4505-9002-51ac4983bb00</id>
       <masked>false</masked>
       <name>zaltnum</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetriveDeleteExclusionClause').getValue(4, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetriveDeleteExclusionClause').getValue(4, 1)</defaultValue>
       <description></description>
       <id>2d409608-716e-4942-af8c-43c57ee7ec81</id>
       <masked>false</masked>
       <name>fupno</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BORetriveDeleteExclusionClause').getValue(5, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/BORetriveDeleteExclusionClause').getValue(5, 1)</defaultValue>
       <description></description>
       <id>5d5eec56-1022-4361-8846-dc8a95c9b53a</id>
       <masked>false</masked>

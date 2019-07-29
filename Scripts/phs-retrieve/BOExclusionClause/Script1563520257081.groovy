@@ -8,14 +8,18 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-ResponseObject response =WS.sendRequest(findTestObject('phs-retrieve/BOExclusionClause', [('endpoint') : GlobalVariable.endpoint, ('CHDRNUM') : findTestData(
-                'BOExclusionClause').getValue(1, 1), ('ZALTNUM') : findTestData('BOExclusionClause').getValue(2, 1), ('FUPNO') : findTestData(
-                'BOExclusionClause').getValue(3, 1), ('OBJID') : findTestData('BOExclusionClause').getValue(4, 1)]))
+ResponseObject response = WS.sendRequest(findTestObject('phs-retrieve/BOExclusionClause', [('endpoint') : GlobalVariable.endpoint, ('chdrnum') : findTestData(
+                'phs-retrieve/BOExclusionClause').getValue(1, 1), ('zaltnum') : findTestData('phs-retrieve/BOExclusionClause').getValue(
+                2, 1), ('fupno') : findTestData('phs-retrieve/BOExclusionClause').getValue(3, 1), ('objid') : findTestData(
+                'phs-retrieve/BOExclusionClause').getValue(4, 1)]))
 
 WS.verifyResponseStatusCode(response, 200)
+
+
+

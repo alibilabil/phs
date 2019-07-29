@@ -6,6 +6,7 @@
    <elementGuidId>a473338c-66e0-4a0e-8056-c4f21fe1b228</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \&quot;objid\&quot;: \&quot;${objid}\&quot;,\n  \&quot;chdrnum\&quot;: \&quot;${chdrnum}\&quot;\n}\n&quot;,
@@ -36,14 +37,14 @@
       <name>endpoint</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phcldetl').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/phcldetl').getValue(1, 1)</defaultValue>
       <description></description>
       <id>88f14638-f556-42bc-93ac-52a3dc16cecb</id>
       <masked>false</masked>
       <name>objid</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('phcldetl').getValue(2, 1)</defaultValue>
+      <defaultValue>findTestData('phs-retrieve/phcldetl').getValue(2, 1)</defaultValue>
       <description></description>
       <id>1f081308-fa45-4043-afc2-439f53cb54c3</id>
       <masked>false</masked>
