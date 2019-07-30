@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getStatusProcesByPolNo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db903a7c-f21f-4dfc-9446-33900f6a9b44</testCaseGuid>
+</TestCaseEntity>

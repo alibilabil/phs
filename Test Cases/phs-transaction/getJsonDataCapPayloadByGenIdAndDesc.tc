@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getJsonDataCapPayloadByGenIdAndDesc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f08c8bc-8ce1-4852-af6d-f2eb49b32cd7</testCaseGuid>
+</TestCaseEntity>

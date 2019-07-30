@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getSignatureFlagByDocumentName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4edcc8c4-fdaa-440b-86f5-6674df46fc5b</testCaseGuid>
+</TestCaseEntity>
