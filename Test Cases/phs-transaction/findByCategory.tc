@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To get data from table phs_transaction_qa_analyst by category</description>
+   <name>findByCategory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b935126-b7ca-4600-921c-fe88d1d2f0cf</testCaseGuid>
+</TestCaseEntity>

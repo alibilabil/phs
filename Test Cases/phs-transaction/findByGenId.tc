@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To get data from table phs_transaction_qa_analyst by genId</description>
+   <name>findByGenId</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f347c0c0-1cdf-440f-ab4b-9fbff36c80db</testCaseGuid>
+</TestCaseEntity>

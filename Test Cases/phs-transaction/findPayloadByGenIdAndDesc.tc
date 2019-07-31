@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To get data from table phs_payload by genIdandDesc</description>
+   <name>findPayloadByGenIdAndDesc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d16e22f-44ce-42db-a80b-108cf25d66f2</testCaseGuid>
+</TestCaseEntity>
